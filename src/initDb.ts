@@ -3,7 +3,7 @@ import 'dotenv/config.js';
 
 const { DB_URL } = process.env;
 
-export const initDb = async () => {
+export const initDb = async() => {
   const sequelize = new Sequelize(DB_URL, {
     dialectOptions: {
       ssl: true,
