@@ -6,7 +6,7 @@ import {
   ForeignKey,
 } from 'sequelize-typescript';
 import { DataTypes } from 'sequelize';
-import { Phone } from './Phone';
+import Phone from './Phone';
 
 @Table({
   tableName: 'products',
@@ -41,12 +41,12 @@ class Product extends Model {
     name: string;
   @AllowNull(false)
   @Column({
-    type: DataTypes.NUMBER,
+    type: DataTypes.INTEGER,
   })
     fullPrice: number;
   @AllowNull(false)
   @Column({
-    type: DataTypes.NUMBER,
+    type: DataTypes.INTEGER,
   })
     price: number;
   @AllowNull(false)
@@ -71,7 +71,7 @@ class Product extends Model {
     ram: string;
   @AllowNull(false)
   @Column({
-    type: DataTypes.NUMBER,
+    type: DataTypes.INTEGER,
   })
     year: number;
   @AllowNull(false)

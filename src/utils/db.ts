@@ -1,6 +1,7 @@
 import { Sequelize } from 'sequelize-typescript';
 import 'dotenv/config.js';
 import Product from '../models/Product';
+import Phone from '../models/Phone';
 
 const { DB_URL = '' } = process.env;
 
@@ -9,6 +10,7 @@ export const initDb = async () => {
     {
       models: [
         Product,
+        Phone,
       ],
       dialectOptions: {
         ssl: true,
