@@ -10,7 +10,7 @@ const app = express();
 initDb();
 
 app.use(cors());
-app.use(express.static('dist/public'));
+app.use(express.static('public'));
 app.use(productRouter);
 
 // app.get('/products/hot', (req, res) => {
