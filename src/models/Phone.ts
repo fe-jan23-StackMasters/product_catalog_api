@@ -1,15 +1,9 @@
-import {
-  Table,
-  Model,
-  Column,
-  AllowNull,
-} from 'sequelize-typescript';
+import { Table, Model, Column, AllowNull } from 'sequelize-typescript';
 import { DataTypes } from 'sequelize';
 
 @Table({
   tableName: 'phones',
 })
-
 class Phone extends Model {
   @Column({
     type: DataTypes.STRING,

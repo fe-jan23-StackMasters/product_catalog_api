@@ -1,7 +1,7 @@
 import Product from '../models/Product';
 
 const normalize = (products: Product[]) => {
-  return products.map(product => ({
+  return products.map((product) => ({
     id: product.id,
     category: product.category,
     phoneId: product.phoneId,
@@ -18,7 +18,7 @@ const normalize = (products: Product[]) => {
   }));
 };
 
-const getAll = async() => {
+const getAll = async () => {
   const allProducts = await Product.findAll({
     // order: [
     //   ['createdAt', 'ASC'],
@@ -28,7 +28,7 @@ const getAll = async() => {
   return allProducts;
 };
 
-const getWithParams = async(page = 1, perPage = 16) => {
+const getWithParams = async (page = 1, perPage = 16) => {
   const limit = perPage;
   const offset = page ? (page - 1) * limit : 0;
 

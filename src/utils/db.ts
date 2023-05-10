@@ -6,16 +6,12 @@ import Phone from '../models/Phone';
 const { DB_URL = '' } = process.env;
 
 export const initDb = async () => {
-  const sequelize = new Sequelize(DB_URL,
-    {
-      models: [
-        Product,
-        Phone,
-      ],
-      dialectOptions: {
-        ssl: true,
-      },
-    });
+  const sequelize = new Sequelize(DB_URL, {
+    models: [Product, Phone],
+    dialectOptions: {
+      ssl: true,
+    },
+  });
 
   try {
     await sequelize.authenticate();

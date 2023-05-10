@@ -11,7 +11,6 @@ import Phone from './Phone';
 @Table({
   tableName: 'products',
 })
-
 class Product extends Model {
   @Column({
     type: DataTypes.STRING,
