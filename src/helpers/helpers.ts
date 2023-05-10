@@ -12,15 +12,15 @@ export const getNameWithoutColorAndMemo = (id: string): string => {
 export const sortByCategory = (products: Product[], sortBy: SortBy) => {
   switch (sortBy) {
     case SortBy.HIGHT:
-      return [...products].sort((a, b) => a.price - b.price);
-    case SortBy.LOW:
       return [...products].sort((a, b) => b.price - a.price);
+    case SortBy.LOW:
+      return [...products].sort((a, b) => a.price - b.price);
     case SortBy.NAME:
       return [...products].sort((a, b) => a.name.localeCompare(b.name));
     case SortBy.NEW:
-      return [...products].sort((a, b) => a.year - b.year);
-    case SortBy.OLD:
       return [...products].sort((a, b) => b.year - a.year);
+    case SortBy.OLD:
+      return [...products].sort((a, b) => a.year - b.year);
 
     default:
       break;
