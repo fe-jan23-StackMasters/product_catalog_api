@@ -88,14 +88,18 @@ const getRecommendations = async (req: Request, res: Response) => {
     return;
   }
 
-  const recommendations = await productService
-    .getRecommendations(product?.id || '');
-
-  res.send(
-    productService.normalize(recommendations),
+  const recommendations = await productService.getRecommendations(
+    product?.id || '',
   );
+
+  res.send(productService.normalize(recommendations));
 };
 
 export default {
-  getAll, getOnPage, getNew, getHot, getOne, getRecommendations,
+  getAll,
+  getOnPage,
+  getNew,
+  getHot,
+  getOne,
+  getRecommendations,
 };

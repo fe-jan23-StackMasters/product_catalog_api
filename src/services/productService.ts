@@ -27,8 +27,7 @@ const normalize = (products: Product[]) => {
 };
 
 const getAll = async () => {
-  const allProducts = await Product.findAll({
-  });
+  const allProducts = await Product.findAll({});
 
   return allProducts;
 };
@@ -76,13 +75,18 @@ const getRecommendations = async (id: string) => {
   const products = await getAll();
   const currentName = getNameWithoutColorAndMemo(id);
 
-  const productsWithoutCurrent = products.filter(product => (
-    getNameWithoutColorAndMemo(product.itemId) !== currentName
-  ));
+  const productsWithoutCurrent = products.filter(
+    (product) => getNameWithoutColorAndMemo(product.itemId) !== currentName,
+  );
 
   return shuffle(productsWithoutCurrent);
 };
 
 export default {
-  getAll, getWithParams, normalize, getNew, getHot, getRecommendations,
+  getAll,
+  getWithParams,
+  normalize,
+  getNew,
+  getHot,
+  getRecommendations,
 };

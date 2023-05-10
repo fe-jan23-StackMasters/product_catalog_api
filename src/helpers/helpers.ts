@@ -2,7 +2,7 @@ import Product from '../models/Product';
 import { SortBy } from '../types/SortBy';
 
 export const calculateSale = ({ fullPrice, price }: Product) => {
-  return (fullPrice - price) / fullPrice * 100;
+  return ((fullPrice - price) / fullPrice) * 100;
 };
 
 export const getNameWithoutColorAndMemo = (id: string): string => {
