@@ -14,14 +14,13 @@ const getOnPage = async (req: Request, res: Response) => {
   const {
     perPage = 16,
     page = 1,
-    productType = Category.PHONE,
+    productType = Object.values(Category),
     sortBy = SortBy.NEW,
   } = req.query;
 
   if (
     Array.isArray(perPage)
     || Array.isArray(page)
-    || Array.isArray(productType)
     || Array.isArray(sortBy)
   ) {
     res.sendStatus(400);
@@ -32,7 +31,7 @@ const getOnPage = async (req: Request, res: Response) => {
   const products = await productService.getWithParams(
     +page,
     +perPage,
-    productType as Category,
+    productType as Category[] | Category,
     sortBy as SortBy,
   );
 
@@ -88,9 +87,7 @@ const getRecommendations = async (req: Request, res: Response) => {
     return;
   }
 
-  const recommendations = await productService.getRecommendations(
-    product?.id || '',
-  );
+  const recommendations = await productService.getRecommendations();
 
   res.send(productService.normalize(recommendations));
 };

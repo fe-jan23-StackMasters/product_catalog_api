@@ -1,12 +1,12 @@
 import Product from '../models/Product';
-import shuffle from 'lodash.shuffle';
 import {
   calculateSale,
-  getNameWithoutColorAndMemo,
+  // filterDuplicatePhones,
   sortByCategory,
 } from '../helpers/helpers';
 import { Category } from '../types/Category';
 import { SortBy } from '../types/SortBy';
+import { Op, Sequelize } from 'sequelize';
 
 const normalize = (products: Product[]) => {
   return products.map((product) => ({
@@ -35,21 +35,27 @@ const getAll = async () => {
 const getWithParams = async (
   page: number,
   perPage: number,
-  category: Category,
+  category: Category[] | Category,
   sortBy: SortBy,
 ) => {
+  let productType = category;
+
+  if (!Array.isArray(category)) {
+    productType = [category];
+  }
+
   const limit = perPage;
   const offset = page ? (page - 1) * limit : 0;
 
   const products = await Product.findAll({
     where: {
-      category,
+      category: {
+        [Op.in]: productType,
+      },
     },
     offset,
     limit,
   });
-
-  console.log(category);
 
   return sortByCategory(products, sortBy);
 };
@@ -66,20 +72,24 @@ const getNew = async () => {
 const getHot = async () => {
   const products = await getAll();
 
+  // const productsWithoutDuplicates = filterDuplicatePhones(products);
+  // we have only 9 phones without duplicates
+
   return products
     .sort((a, b) => calculateSale(b) - calculateSale(a))
     .slice(0, 12);
 };
 
-const getRecommendations = async (id: string) => {
-  const products = await getAll();
-  const currentName = getNameWithoutColorAndMemo(id);
+const getRecommendations = async () => {
+  const products = await Product.findAll({
+    order: Sequelize.literal('random()'),
+    limit: 12,
+  });
 
-  const productsWithoutCurrent = products.filter(
-    (product) => getNameWithoutColorAndMemo(product.itemId) !== currentName,
-  );
+  // const productsWithoutDuplicates = filterDuplicatePhones(products);
+  // we have only 9 phones without duplicates
 
-  return shuffle(productsWithoutCurrent);
+  return products;
 };
 
 export default {

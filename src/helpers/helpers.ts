@@ -9,6 +9,24 @@ export const getNameWithoutColorAndMemo = (id: string): string => {
   return id.split('-').slice(0, -2).join('-');
 };
 
+export const filterDuplicatePhones = (
+  products: Product[],
+): Product[] => {
+  const alreadyExists: string[] = [];
+
+  return products.filter((product) => {
+    const name = getNameWithoutColorAndMemo(product.itemId);
+
+    if (alreadyExists.includes(name)) {
+      return false;
+    }
+
+    alreadyExists.push(name);
+
+    return true;
+  });
+};
+
 export const sortByCategory = (products: Product[], sortBy: SortBy) => {
   switch (sortBy) {
     case SortBy.HIGHT:
