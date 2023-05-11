@@ -9,9 +9,7 @@ export const getNameWithoutColorAndMemo = (id: string): string => {
   return id.split('-').slice(0, -2).join('-');
 };
 
-export const filterDuplicatePhones = (
-  products: Product[],
-): Product[] => {
+export const filterDuplicatePhones = (products: Product[]): Product[] => {
   const alreadyExists: string[] = [];
 
   return products.filter((product) => {

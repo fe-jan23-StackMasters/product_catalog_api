@@ -18,11 +18,7 @@ const getOnPage = async (req: Request, res: Response) => {
     sortBy = SortBy.NEW,
   } = req.query;
 
-  if (
-    Array.isArray(perPage)
-    || Array.isArray(page)
-    || Array.isArray(sortBy)
-  ) {
+  if (Array.isArray(perPage) || Array.isArray(page) || Array.isArray(sortBy)) {
     res.sendStatus(400);
 
     return;
@@ -31,21 +27,32 @@ const getOnPage = async (req: Request, res: Response) => {
   const products = await productService.getWithParams(
     +page,
     +perPage,
-    productType as Category[] | Category,
+    productType as Category[],
     sortBy as SortBy,
   );
 
-  res.send(productService.normalize(products || []));
+  const models = await productService.getModelsNumber(
+    productType as Category[],
+  );
+
+  res.send({
+    pages: Math.ceil(models / +perPage),
+    products: productService.normalize(products || []),
+    models,
+  });
 };
 
 const getNew = async (req: Request, res: Response) => {
-  const products = await productService.getNew();
+  const { limit = 12 } = req.query;
+
+  const products = await productService.getNew(+limit);
 
   res.send(productService.normalize(products));
 };
 
 const getHot = async (req: Request, res: Response) => {
-  const products = await productService.getHot();
+  const { limit = 12 } = req.query;
+  const products = await productService.getHot(+limit);
 
   res.send(productService.normalize(products));
 };

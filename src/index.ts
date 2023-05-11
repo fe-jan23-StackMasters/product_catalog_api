@@ -4,7 +4,7 @@ import cors from 'cors';
 import { initDb } from './utils/db';
 import productRouter from './routers/productRouter';
 
-const PORT = 3000;
+const PORT = 3001;
 const app = express();
 
 export const sequelize = initDb();

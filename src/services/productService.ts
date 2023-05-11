@@ -60,16 +60,36 @@ const getWithParams = async (
   return sortByCategory(products, sortBy);
 };
 
-const getNew = async () => {
+const getModelsNumber = async (
+  category: Category[] | Category,
+) => {
+  let productType = category;
+
+  if (!Array.isArray(category)) {
+    productType = [category];
+  }
+
+  const products = await Product.findAll({
+    where: {
+      category: {
+        [Op.in]: productType,
+      },
+    },
+  });
+
+  return products.length;
+};
+
+const getNew = async (limit: number) => {
   const products = await Product.findAll({
     order: [['year', 'DESC']],
-    limit: 12,
+    limit,
   });
 
   return products;
 };
 
-const getHot = async () => {
+const getHot = async (limit: number) => {
   const products = await getAll();
 
   // const productsWithoutDuplicates = filterDuplicatePhones(products);
@@ -77,7 +97,7 @@ const getHot = async () => {
 
   return products
     .sort((a, b) => calculateSale(b) - calculateSale(a))
-    .slice(0, 12);
+    .slice(0, limit);
 };
 
 const getRecommendations = async () => {
@@ -99,4 +119,5 @@ export default {
   getNew,
   getHot,
   getRecommendations,
+  getModelsNumber,
 };
