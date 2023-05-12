@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+
+    <title>Images list</title>
+  </head>
+  <body class="content p-4">
+    <header>
+      <h1>Images list</h1>
+    </header>
+    <body>
+      <table class="table is-bordered is-striped is-hoverable">
+        <tbody id="files">
+        </tbody>
+      </table>
+    </body>
+
+    <script>
+      fetch('/files')
+        .then(response => response.json())
+        .then(files => {
+          const table = document.getElementById('files');
+          files.forEach(file => {
+            const tableRow = document.createElement('tr');
+            const link = document.createElement('a');
+            link.href = 'img/' + file;
+            link.innerText = file;
+            tableRow.appendChild(link);
+            table.appendChild(tableRow);
+          });
+        })
+        .catch(error => console.error(error));
+    </script>
+  </body>
+</html>
