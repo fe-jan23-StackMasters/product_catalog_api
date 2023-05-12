@@ -1,3 +1,4 @@
+import { Order } from 'sequelize';
 import Product from '../models/Product';
 import { SortBy } from '../types/SortBy';
 
@@ -25,20 +26,20 @@ export const filterDuplicatePhones = (products: Product[]): Product[] => {
   });
 };
 
-export const sortByCategory = (products: Product[], sortBy: SortBy) => {
+export const getOrderParameter = (sortBy: SortBy): Order => {
   switch (sortBy) {
     case SortBy.HIGHT:
-      return [...products].sort((a, b) => b.price - a.price);
+      return [['price', 'DESC']];
     case SortBy.LOW:
-      return [...products].sort((a, b) => a.price - b.price);
+      return [['price', 'ASC']];
     case SortBy.NAME:
-      return [...products].sort((a, b) => a.name.localeCompare(b.name));
+      return [['name', 'ASC']];
     case SortBy.NEW:
-      return [...products].sort((a, b) => b.year - a.year);
+      return [['year', 'DESC']];
     case SortBy.OLD:
-      return [...products].sort((a, b) => a.year - b.year);
+      return [['year', 'ASC']];
 
     default:
-      break;
+      return [['year', 'DESC']];
   }
 };

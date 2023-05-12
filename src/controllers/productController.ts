@@ -77,11 +77,11 @@ const getOne = async (req: Request, res: Response) => {
   res.send(product);
 };
 
-const getRecommendations = async (req: Request, res: Response) => {
+const getRecommended = async (req: Request, res: Response) => {
   const { productId } = req.params;
 
   if (!productId) {
-    res.sendStatus(503);
+    res.sendStatus(400);
 
     return;
   }
@@ -94,7 +94,7 @@ const getRecommendations = async (req: Request, res: Response) => {
     return;
   }
 
-  const recommendations = await productService.getRecommendations();
+  const recommendations = await productService.getRecommended();
 
   res.send(productService.normalize(recommendations));
 };
@@ -105,5 +105,5 @@ export default {
   getNew,
   getHot,
   getOne,
-  getRecommendations,
+  getRecommended,
 };

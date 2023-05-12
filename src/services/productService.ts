@@ -2,11 +2,11 @@ import Product from '../models/Product';
 import {
   calculateSale,
   // filterDuplicatePhones,
-  sortByCategory,
+  getOrderParameter,
 } from '../helpers/helpers';
 import { Category } from '../types/Category';
 import { SortBy } from '../types/SortBy';
-import { Op, Sequelize } from 'sequelize';
+import { Op, Order, Sequelize } from 'sequelize';
 
 const normalize = (products: Product[]) => {
   return products.map((product) => ({
@@ -46,6 +46,7 @@ const getWithParams = async (
 
   const limit = perPage;
   const offset = page ? (page - 1) * limit : 0;
+  const order: Order = getOrderParameter(sortBy);
 
   const products = await Product.findAll({
     where: {
@@ -55,9 +56,10 @@ const getWithParams = async (
     },
     offset,
     limit,
+    order,
   });
 
-  return sortByCategory(products, sortBy);
+  return products;
 };
 
 const getModelsNumber = async (
@@ -100,7 +102,7 @@ const getHot = async (limit: number) => {
     .slice(0, limit);
 };
 
-const getRecommendations = async () => {
+const getRecommended = async () => {
   const products = await Product.findAll({
     order: Sequelize.literal('random()'),
     limit: 12,
@@ -118,6 +120,6 @@ export default {
   normalize,
   getNew,
   getHot,
-  getRecommendations,
+  getRecommended,
   getModelsNumber,
 };

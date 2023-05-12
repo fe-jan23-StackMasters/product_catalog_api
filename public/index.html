@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+
+    <title>API documentation for your store</title>
+  </head>
+  <body class="content m-0">
+    <header class="p-4">
+      <h1 class="title is-3">Nice store API documentation</h1>
+      <p class="subtitle mb-4">
+        This documentation describes the available endpoints of nice-store API and
+        their parameters.
+      </p>
+      <h2 class="title is-4 mt-6">Overview of endpoints</h2>
+    </header>
+
+    <section>
+      <article class="box columns m-4">
+        <div class="column is-half">
+          <h3 class="title is-5">Get products</h3>
+
+          <p><strong>URL:</strong> <code>/products</code></p>
+
+          <p><strong>HTTP Method:</strong> <code>GET</code></p>
+          <p>
+            <strong>Description:</strong> Get a list of products with pagination
+            and sorting capabilities.
+          </p>
+          <p><strong>Query Parameters:</strong></p>
+          <ul>
+            <li>
+              <code>perPage</code> (optional) - number of products per page
+              (default 16)
+            </li>
+            <li><code>page</code> (optional) - page number (default 1)</li>
+            <li>
+              <code>productType</code> (optional) - type of product (default
+              all)
+
+              <ul>
+                <li><code>phones</code></li>
+                <li><code>tablets</code></li>
+                <li><code>accessories</code></li>
+              </ul>
+            </li>
+            <li>
+              <code>sortBy</code> (optional) - sorting method (default newest)
+
+              <ul>
+                <li><code>name</code> - sort by name alphabetically</li>
+                <li><code>newest</code> - release date new ➡ old</li>
+                <li><code>oldest</code> - release date old ➡ new</li>
+                <li><code>lowest</code> - price low ➡ hight</li>
+                <li><code>highest</code> - price hight ➡ low</li>
+              </ul>
+            </li>
+          </ul>
+          <p><strong>Response:</strong></p>
+          <ul>
+            <li><code>pages</code> - total number of pages</li>
+            <li><code>models</code> - total number of models on the page</li>
+            <li>
+              <code>products</code> - an array of objects with information about
+              the products
+            </li>
+          </ul>
+        </div>
+        <div class="column is-half">
+          <h3 class="title is-5">Using example</h3>
+          <p>
+            <strong>Request:</strong> 
+            <code>
+              <a href="/products?page=1&perPage=2&sortBy=oldest&productType=phones" style="overflow-wrap: break-word;">
+                /products?page=1&perPage=2&sortBy=oldest&productType=phones
+              </a>
+            </code>
+          </p>
+
+          <p>
+            <strong>Response:</strong>
+
+            <pre style="color: #c31818; padding: 10px;">
+{
+  "pages": 36,
+  "products": [
+      {
+          "id": "18",
+          "category": "phones",
+          "phoneId": "apple-iphone-7-32gb-gold",
+          "itemId": "apple-iphone-7-32gb-gold",
+          "name": "Apple iPhone 7 32GB Gold",
+          "fullPrice": 400,
+          "price": 375,
+          "screen": "4.7' IPS",
+          "capacity": "32GB",
+          "color": "gold",
+          "ram": "2GB",
+          "year": 2016,
+          "image": "img/phones/apple-iphone-7/gold/00.jpg"
+      },
+      {
+          "id": "1",
+          "category": "phones",
+          "phoneId": "apple-iphone-7-32gb-black",
+          "itemId": "apple-iphone-7-32gb-black",
+          "name": "Apple iPhone 7 32GB Black",
+          "fullPrice": 400,
+          "price": 375,
+          "screen": "4.7' IPS",
+          "capacity": "32GB",
+          "color": "black",
+          "ram": "2GB",
+          "year": 2016,
+          "image": "img/phones/apple-iphone-7/black/00.jpg"
+      }
+  ],
+  "models": 71
+}            </pre>
+          </p>
+        </div>
+      </article>
+
+      <article class="box columns m-4">
+        <div class="column is-half">
+          <h3 class="title is-5">Get new arrivals</h3>
+          <p><strong>URL:</strong> <code>/products/new</code></p>
+          <p><strong>HTTP Method:</strong> <code>GET</code></p>
+          <p>
+            <strong>Description:</strong> Get a list of new arrivals with the
+            ability to set a limit.
+          </p>
+          <p><strong>Query Parameters:</strong></p>
+          <ul>
+            <li>
+              <code>limit</code> (optional) - number of products (default 12)
+            </li>
+          </ul>
+          <p>
+            <strong>Response:</strong> an array of objects with information about
+            the products
+          </p>
+        </div>
+
+        <div class="column is-half">
+          <h3 class="title is-5">Using example</h3>
+          <p>
+            <strong>Request:</strong> 
+            <code>
+              <a href="/products/new?limit=1">
+                /products/new?limit=1
+              </a>
+            </code>
+          </p>
+
+          <p>
+            <strong>Response:</strong>
+
+            <pre style="color: #c31818; padding: 10px;">
+[
+  {
+      "id": "4",
+      "category": "phones",
+      "phoneId": "apple-iphone-11-64gb-black",
+      "itemId": "apple-iphone-11-64gb-black",
+      "name": "Apple iPhone 11 64GB Black",
+      "fullPrice": 932,
+      "price": 880,
+      "screen": "6.1' IPS",
+      "capacity": "64GB",
+      "color": "black",
+      "ram": "4GB",
+      "year": 2019,
+      "image": "img/phones/apple-iphone-11/black/00.jpg"
+  }
+]</pre>
+          </p>
+        </div>
+      </article>
+
+      <article class="box columns m-4">
+        <div class="column is-half">
+          <h3 class="title is-5">Get hot deals</h3>
+          <p><strong>URL:</strong> <code>/products/discount</code></p>
+          <p><strong>HTTP Method:</strong> <code>GET</code></p>
+          <p>
+            <strong>Description:</strong> Get a list of hot deals with the ability
+            to set a limit.
+          </p>
+          <p><strong>Query Parameters:</strong></p>
+          <ul>
+            <li>
+              <code>limit</code> (optional) - number of products (default 12)
+            </li>
+          </ul>
+          <p>
+            <strong>Response:</strong> an array of objects with information about
+            the products
+          </p>
+        </div>
+
+        <div class="column is-half">
+          <h3 class="title is-5">Using example</h3>
+          <p>
+            <strong>Request:</strong> 
+            <code>
+              <a href="/products/discount?limit=1" style="overflow-wrap: break-word;">
+                /products/discount?limit=1
+              </a>
+            </code>
+          </p>
+
+          <p>
+            <strong>Response:</strong>
+
+            <pre style="color: #c31818; padding: 10px;">
+[
+  {
+      "id": "3",
+      "category": "phones",
+      "phoneId": "apple-iphone-8-64gb-gold",
+      "itemId": "apple-iphone-8-64gb-gold",
+      "name": "Apple iPhone 8 64GB Gold",
+      "fullPrice": 600,
+      "price": 550,
+      "screen": "4.7' IPS",
+      "capacity": "64GB",
+      "color": "gold",
+      "ram": "2GB",
+      "year": 2017,
+      "image": "img/phones/apple-iphone-8/gold/00.jpg"
+  }
+]</pre>
+          </p>
+        </div>
+      </article>
+
+      <article class="box columns m-4">
+        <div class="column is-half">
+          <h3 class="title is-5">Get product details</h3>
+          <p><strong>URL:</strong> <code>/products/:productId</code></p>
+          <p><strong>HTTP Method:</strong> <code>GET</code></p>
+          <p>
+            <strong>Description:</strong> Get detailed information about a
+            product.
+          </p>
+          <p><strong>URL Parameters:</strong></p>
+          <ul>
+            <li><code>productId</code> - the ID of the product to retrieve</li>
+          </ul>
+          <p>
+            <strong>Response:</strong> an object with detailed information about
+            the product
+          </p>
+          </div>
+
+        <div class="column is-half">
+          <h3 class="title is-5">Using example</h3>
+          <p>
+            <strong>Request:</strong> 
+            <code>
+              <a href="/products/apple-iphone-8-64gb-gold" style="overflow-wrap: break-word;">
+                /products/apple-iphone-8-64gb-gold
+              </a>
+            </code>
+          </p>
+
+          <p>
+            <strong>Response:</strong>
+
+            <pre style="color: #c31818; padding: 10px;">
+{
+  "id": "apple-iphone-8-64gb-gold",
+  "namespaceId": "apple-iphone-8",
+  "name": "Apple iPhone 8 64GB Gold",
+  "capacityAvailable": [
+      "64GB"
+  ],
+  "capacity": "64GB",
+  "priceRegular": 600,
+  "priceDiscount": 550,
+  "colorsAvailable": [
+      "spacegray",
+      "gold",
+      "silver"
+  ],
+  "color": "gold",
+  "images": [
+      "img/phones/apple-iphone-8/gold/00.jpg",
+      "img/phones/apple-iphone-8/gold/01.jpg",
+      "img/phones/apple-iphone-8/gold/02.jpg",
+      "img/phones/apple-iphone-8/gold/03.jpg"
+  ],
+  "description": [
+      {
+          "title": "And then there was Pro",
+          "text": [
+              "A transformative triple-camera...",
+              "An unprecedented leap in battery..."
+          ]
+      },
+      {
+          "title": "Camera",
+          "text": [
+              "Meet the first triple-camera..."
+          ]
+      },
+      {
+          "title": "Shoot it. Flip it. Zoom it...",
+          "text": [
+              "iPhone 11 Pro lets you capture..."
+          ]
+      }
+  ],
+  "screen": "4.7' IPS",
+  "resolution": "1334x750",
+  "processor": "Apple A11 Bionic",
+  "ram": "2GB",
+  "camera": "12 Mp + 7 Mp",
+  "zoom": "Digital, 5x",
+  "cell": [
+      "GPRS",
+      "EDGE",
+      "WCDMA",
+      "UMTS",
+      "HSPA",
+      "LTE"
+  ],
+  "createdAt": "2023-05-09T16:53:25.023Z",
+  "updatedAt": "2023-05-09T16:53:25.023Z"
+}</pre>
+          </p>
+        </div>
+      </article>
+
+      <article class="box columns m-4">
+        <div class="column is-half">
+          <h3 class="title is-5">Get recommended products</h3>
+          <p>
+            <strong>URL:</strong> <code>/products/:productId/recommended</code>
+          </p>
+          <p><strong>HTTP Method:</strong> <code>GET</code></p>
+          <p>
+            <strong>Description:</strong> Get a list of recommended products based
+            on a given product.
+          </p>
+          <p><strong>URL Parameters:</strong></p>
+          <ul>
+            <li>
+              <code>productId</code> - the ID of the product to get
+              recommendations for
+            </li>
+          </ul>
+          <p>
+            <strong>Response:</strong> an array of objects with information about
+            the recommended products
+          </p>
+        </div>
+
+        <div class="column is-half">
+          <h3 class="title is-5">Using example</h3>
+          <p>
+            <strong>Request:</strong> 
+            <code>
+              <a href="/products//apple-iphone-8-64gb-gold/recommended" style="overflow-wrap: break-word;">
+                /products/apple-iphone-8-64gb-gold/recommended
+              </a>
+            </code>
+          </p>
+
+          <p>
+            <strong>Response:</strong>
+
+            <pre style="color: #c31818; padding: 10px;">
+[
+  {
+      "id": "35",
+      "category": "phones",
+      "phoneId": "apple-iphone-7-32gb-rosegold",
+      "itemId": "apple-iphone-7-32gb-rosegold",
+      "name": "Apple iPhone 7 32GB Rosegold",
+      "fullPrice": 400,
+      "price": 375,
+      "screen": "4.7' IPS",
+      "capacity": "32GB",
+      "color": "rosegold",
+      "ram": "2GB",
+      "year": 2016,
+      "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
+  },
+  {
+      "id": "62",
+      "category": "phones",
+      "phoneId": "apple-iphone-11-256gb-purple",
+      "itemId": "apple-iphone-11-256gb-purple",
+      "name": "Apple iPhone 11 256GB Purple",
+      "fullPrice": 1172,
+      "price": 1115,
+      "screen": "6.1' IPS",
+      "capacity": "256GB",
+      "color": "purple",
+      "ram": "4GB",
+      "year": 2019,
+      "image": "img/phones/apple-iphone-11/purple/00.jpg"
+  },
+  ...
+]</pre>
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="hero is-danger">
+      <div class="hero-body">
+        <h2 class="title">HTTP Status Codes</h2>
+        <p class="subtitle">
+          The following HTTP status codes may be returned by the API:
+        </p>
+        <ul>
+          <li><strong>200 OK</strong> - The request was successful.</li>
+          <li>
+            <strong>400 Bad Request</strong> - The request was invalid or missing
+            required parameters.
+          </li>
+          <li>
+            <strong>404 Not Found</strong> - The requested resource was not found.
+          </li>
+          <li>
+            <strong>500 Internal Server Error</strong> - An error occurred on the
+            server while processing the request.
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
