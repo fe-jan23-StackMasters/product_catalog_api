@@ -62,9 +62,7 @@ const getWithParams = async (
   return products;
 };
 
-const getModelsNumber = async (
-  category: Category[] | Category,
-) => {
+const getModelsNumber = async (category: Category[] | Category) => {
   let productType = category;
 
   if (!Array.isArray(category)) {

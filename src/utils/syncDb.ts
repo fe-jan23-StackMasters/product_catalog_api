@@ -17,7 +17,7 @@ const products = [
     color: 'black',
     ram: '2GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7/black/00.jpg',
+    image: 'img/phones/apple-iphone-7/black/00.png',
   },
   {
     id: '2',
@@ -32,7 +32,7 @@ const products = [
     color: 'black',
     ram: '3GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7-plus/black/00.jpg',
+    image: 'img/phones/apple-iphone-7-plus/black/00.png',
   },
   {
     id: '3',
@@ -47,7 +47,7 @@ const products = [
     color: 'gold',
     ram: '2GB',
     year: 2017,
-    image: 'img/phones/apple-iphone-8/gold/00.jpg',
+    image: 'img/phones/apple-iphone-8/gold/00.png',
   },
   {
     id: '4',
@@ -62,7 +62,7 @@ const products = [
     color: 'black',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/black/00.jpg',
+    image: 'img/phones/apple-iphone-11/black/00.png',
   },
   {
     id: '5',
@@ -77,7 +77,7 @@ const products = [
     color: 'yellow',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/yellow/00.jpg',
+    image: 'img/phones/apple-iphone-11/yellow/00.png',
   },
   {
     id: '6',
@@ -92,7 +92,7 @@ const products = [
     color: 'green',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/green/00.jpg',
+    image: 'img/phones/apple-iphone-11/green/00.png',
   },
   {
     id: '7',
@@ -107,7 +107,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/gold/00.png',
   },
   {
     id: '8',
@@ -122,7 +122,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
   },
   {
     id: '9',
@@ -137,7 +137,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/silver/00.png',
   },
   {
     id: '10',
@@ -152,7 +152,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
   },
   {
     id: '11',
@@ -167,7 +167,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/gold/00.png',
   },
   {
     id: '12',
@@ -182,7 +182,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
   },
   {
     id: '13',
@@ -197,7 +197,7 @@ const products = [
     color: 'red',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/red/00.jpg',
+    image: 'img/phones/apple-iphone-xr/red/00.png',
   },
   {
     id: '14',
@@ -212,7 +212,7 @@ const products = [
     color: 'white',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/white/00.jpg',
+    image: 'img/phones/apple-iphone-xr/white/00.png',
   },
   {
     id: '15',
@@ -227,7 +227,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-xs/spacegray/00.png',
   },
   {
     id: '16',
@@ -242,7 +242,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/gold/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/gold/00.png',
   },
   {
     id: '17',
@@ -257,7 +257,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/silver/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/silver/00.png',
   },
   {
     id: '18',
@@ -272,7 +272,7 @@ const products = [
     color: 'gold',
     ram: '2GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7/gold/00.jpg',
+    image: 'img/phones/apple-iphone-7/gold/00.png',
   },
   {
     id: '19',
@@ -287,7 +287,7 @@ const products = [
     color: 'silver',
     ram: '3GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7-plus/silver/00.jpg',
+    image: 'img/phones/apple-iphone-7-plus/silver/00.png',
   },
   {
     id: '20',
@@ -302,7 +302,7 @@ const products = [
     color: 'spacegray',
     ram: '2GB',
     year: 2017,
-    image: 'img/phones/apple-iphone-8/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-8/spacegray/00.png',
   },
   {
     id: '21',
@@ -317,7 +317,7 @@ const products = [
     color: 'green',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/green/00.jpg',
+    image: 'img/phones/apple-iphone-11/green/00.png',
   },
   {
     id: '22',
@@ -332,7 +332,7 @@ const products = [
     color: 'purple',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/purple/00.jpg',
+    image: 'img/phones/apple-iphone-11/purple/00.png',
   },
   {
     id: '23',
@@ -347,7 +347,7 @@ const products = [
     color: 'yellow',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/yellow/00.jpg',
+    image: 'img/phones/apple-iphone-11/yellow/00.png',
   },
   {
     id: '24',
@@ -362,7 +362,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/gold/00.png',
   },
   {
     id: '25',
@@ -377,7 +377,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/spacegray/00.png',
   },
   {
     id: '26',
@@ -392,7 +392,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/silver/00.png',
   },
   {
     id: '27',
@@ -407,7 +407,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
   },
   {
     id: '28',
@@ -422,7 +422,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/silver/00.png',
   },
   {
     id: '29',
@@ -437,7 +437,7 @@ const products = [
     color: 'white',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/white/00.jpg',
+    image: 'img/phones/apple-iphone-xr/white/00.png',
   },
   {
     id: '30',
@@ -452,7 +452,7 @@ const products = [
     color: 'coral',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/coral/00.jpg',
+    image: 'img/phones/apple-iphone-xr/coral/00.png',
   },
   {
     id: '31',
@@ -467,7 +467,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs/gold/00.jpg',
+    image: 'img/phones/apple-iphone-xs/gold/00.png',
   },
   {
     id: '32',
@@ -482,7 +482,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-xs/spacegray/00.png',
   },
   {
     id: '33',
@@ -497,7 +497,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/silver/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/silver/00.png',
   },
   {
     id: '34',
@@ -512,7 +512,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/gold/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/gold/00.png',
   },
   {
     id: '35',
@@ -527,7 +527,7 @@ const products = [
     color: 'rosegold',
     ram: '2GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7/rosegold/00.jpg',
+    image: 'img/phones/apple-iphone-7/rosegold/00.png',
   },
   {
     id: '36',
@@ -542,7 +542,7 @@ const products = [
     color: 'purple',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/purple/00.jpg',
+    image: 'img/phones/apple-iphone-11/purple/00.png',
   },
   {
     id: '37',
@@ -557,7 +557,7 @@ const products = [
     color: 'red',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/red/00.jpg',
+    image: 'img/phones/apple-iphone-11/red/00.png',
   },
   {
     id: '38',
@@ -572,7 +572,7 @@ const products = [
     color: 'black',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/black/00.jpg',
+    image: 'img/phones/apple-iphone-11/black/00.png',
   },
   {
     id: '39',
@@ -587,7 +587,7 @@ const products = [
     color: 'red',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/red/00.jpg',
+    image: 'img/phones/apple-iphone-11/red/00.png',
   },
   {
     id: '40',
@@ -602,7 +602,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
   },
   {
     id: '41',
@@ -617,7 +617,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/silver/00.png',
   },
   {
     id: '42',
@@ -632,7 +632,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/gold/00.png',
   },
   {
     id: '43',
@@ -647,7 +647,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
   },
   {
     id: '44',
@@ -662,7 +662,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
   },
   {
     id: '45',
@@ -677,7 +677,7 @@ const products = [
     color: 'coral',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/coral/00.jpg',
+    image: 'img/phones/apple-iphone-xr/coral/00.png',
   },
   {
     id: '46',
@@ -692,7 +692,7 @@ const products = [
     color: 'red',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/red/00.jpg',
+    image: 'img/phones/apple-iphone-xr/red/00.png',
   },
   {
     id: '47',
@@ -707,7 +707,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs/gold/00.jpg',
+    image: 'img/phones/apple-iphone-xs/gold/00.png',
   },
   {
     id: '48',
@@ -722,7 +722,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/spacegray/00.png',
   },
   {
     id: '49',
@@ -737,7 +737,7 @@ const products = [
     color: 'rosegold',
     ram: '3GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7-plus/rosegold/00.jpg',
+    image: 'img/phones/apple-iphone-7-plus/rosegold/00.png',
   },
   {
     id: '50',
@@ -752,7 +752,7 @@ const products = [
     color: 'white',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/white/00.jpg',
+    image: 'img/phones/apple-iphone-11/white/00.png',
   },
   {
     id: '51',
@@ -767,7 +767,7 @@ const products = [
     color: 'green',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/green/00.jpg',
+    image: 'img/phones/apple-iphone-11/green/00.png',
   },
   {
     id: '52',
@@ -782,7 +782,7 @@ const products = [
     color: 'white',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/white/00.jpg',
+    image: 'img/phones/apple-iphone-11/white/00.png',
   },
   {
     id: '53',
@@ -797,7 +797,7 @@ const products = [
     color: 'black',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/black/00.jpg',
+    image: 'img/phones/apple-iphone-11/black/00.png',
   },
   {
     id: '54',
@@ -812,7 +812,7 @@ const products = [
     color: 'white',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/white/00.jpg',
+    image: 'img/phones/apple-iphone-11/white/00.png',
   },
   {
     id: '55',
@@ -827,7 +827,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/spacegray/00.png',
   },
   {
     id: '56',
@@ -842,7 +842,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
   },
   {
     id: '57',
@@ -857,7 +857,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/gold/00.png',
   },
   {
     id: '58',
@@ -872,7 +872,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/silver/00.png',
   },
   {
     id: '59',
@@ -887,7 +887,7 @@ const products = [
     color: 'midnightgreen',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
   },
   {
     id: '60',
@@ -902,7 +902,7 @@ const products = [
     color: 'yellow',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/yellow/00.jpg',
+    image: 'img/phones/apple-iphone-xr/yellow/00.png',
   },
   {
     id: '61',
@@ -917,7 +917,7 @@ const products = [
     color: 'silver',
     ram: '2GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7/silver/00.jpg',
+    image: 'img/phones/apple-iphone-7/silver/00.png',
   },
   {
     id: '62',
@@ -932,7 +932,7 @@ const products = [
     color: 'purple',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/purple/00.jpg',
+    image: 'img/phones/apple-iphone-11/purple/00.png',
   },
   {
     id: '63',
@@ -947,7 +947,7 @@ const products = [
     color: 'gold',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro-max/gold/00.png',
   },
   {
     id: '64',
@@ -962,7 +962,7 @@ const products = [
     color: 'yellow',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/yellow/00.jpg',
+    image: 'img/phones/apple-iphone-11/yellow/00.png',
   },
   {
     id: '65',
@@ -977,7 +977,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/spacegray/00.png',
   },
   {
     id: '66',
@@ -992,7 +992,7 @@ const products = [
     color: 'silver',
     ram: '2GB',
     year: 2017,
-    image: 'img/phones/apple-iphone-8/silver/00.jpg',
+    image: 'img/phones/apple-iphone-8/silver/00.png',
   },
   {
     id: '67',
@@ -1007,7 +1007,7 @@ const products = [
     color: 'red',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11/red/00.jpg',
+    image: 'img/phones/apple-iphone-11/red/00.png',
   },
   {
     id: '68',
@@ -1022,7 +1022,7 @@ const products = [
     color: 'spacegray',
     ram: '4GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    image: 'img/phones/apple-iphone-xs-max/spacegray/00.png',
   },
   {
     id: '69',
@@ -1037,7 +1037,7 @@ const products = [
     color: 'gold',
     ram: '3GB',
     year: 2016,
-    image: 'img/phones/apple-iphone-7-plus/gold/00.jpg',
+    image: 'img/phones/apple-iphone-7-plus/gold/00.png',
   },
   {
     id: '70',
@@ -1052,7 +1052,7 @@ const products = [
     color: 'silver',
     ram: '4GB',
     year: 2019,
-    image: 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    image: 'img/phones/apple-iphone-11-pro/silver/00.png',
   },
   {
     id: '71',
@@ -1067,7 +1067,7 @@ const products = [
     color: 'yellow',
     ram: '3GB',
     year: 2018,
-    image: 'img/phones/apple-iphone-xr/yellow/00.jpg',
+    image: 'img/phones/apple-iphone-xr/yellow/00.png',
   },
 ];
 
@@ -1083,11 +1083,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'black',
     images: [
-      'img/phones/apple-iphone-11/black/00.jpg',
-      'img/phones/apple-iphone-11/black/01.jpg',
-      'img/phones/apple-iphone-11/black/02.jpg',
-      'img/phones/apple-iphone-11/black/03.jpg',
-      'img/phones/apple-iphone-11/black/04.jpg',
+      'img/phones/apple-iphone-11/black/00.png',
+      'img/phones/apple-iphone-11/black/01.png',
+      'img/phones/apple-iphone-11/black/02.png',
+      'img/phones/apple-iphone-11/black/03.png',
+      'img/phones/apple-iphone-11/black/04.png',
     ],
     description: [
       {
@@ -1131,11 +1131,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'green',
     images: [
-      'img/phones/apple-iphone-11/green/00.jpg',
-      'img/phones/apple-iphone-11/green/01.jpg',
-      'img/phones/apple-iphone-11/green/02.jpg',
-      'img/phones/apple-iphone-11/green/03.jpg',
-      'img/phones/apple-iphone-11/green/04.jpg',
+      'img/phones/apple-iphone-11/green/00.png',
+      'img/phones/apple-iphone-11/green/01.png',
+      'img/phones/apple-iphone-11/green/02.png',
+      'img/phones/apple-iphone-11/green/03.png',
+      'img/phones/apple-iphone-11/green/04.png',
     ],
     description: [
       {
@@ -1179,11 +1179,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'purple',
     images: [
-      'img/phones/apple-iphone-11/purple/00.jpg',
-      'img/phones/apple-iphone-11/purple/01.jpg',
-      'img/phones/apple-iphone-11/purple/02.jpg',
-      'img/phones/apple-iphone-11/purple/03.jpg',
-      'img/phones/apple-iphone-11/purple/04.jpg',
+      'img/phones/apple-iphone-11/purple/00.png',
+      'img/phones/apple-iphone-11/purple/01.png',
+      'img/phones/apple-iphone-11/purple/02.png',
+      'img/phones/apple-iphone-11/purple/03.png',
+      'img/phones/apple-iphone-11/purple/04.png',
     ],
     description: [
       {
@@ -1227,11 +1227,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'red',
     images: [
-      'img/phones/apple-iphone-11/red/00.jpg',
-      'img/phones/apple-iphone-11/red/01.jpg',
-      'img/phones/apple-iphone-11/red/02.jpg',
-      'img/phones/apple-iphone-11/red/03.jpg',
-      'img/phones/apple-iphone-11/red/04.jpg',
+      'img/phones/apple-iphone-11/red/00.png',
+      'img/phones/apple-iphone-11/red/01.png',
+      'img/phones/apple-iphone-11/red/02.png',
+      'img/phones/apple-iphone-11/red/03.png',
+      'img/phones/apple-iphone-11/red/04.png',
     ],
     description: [
       {
@@ -1275,11 +1275,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'white',
     images: [
-      'img/phones/apple-iphone-11/white/00.jpg',
-      'img/phones/apple-iphone-11/white/01.jpg',
-      'img/phones/apple-iphone-11/white/02.jpg',
-      'img/phones/apple-iphone-11/white/03.jpg',
-      'img/phones/apple-iphone-11/white/04.jpg',
+      'img/phones/apple-iphone-11/white/00.png',
+      'img/phones/apple-iphone-11/white/01.png',
+      'img/phones/apple-iphone-11/white/02.png',
+      'img/phones/apple-iphone-11/white/03.png',
+      'img/phones/apple-iphone-11/white/04.png',
     ],
     description: [
       {
@@ -1323,11 +1323,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'yellow',
     images: [
-      'img/phones/apple-iphone-11/yellow/00.jpg',
-      'img/phones/apple-iphone-11/yellow/01.jpg',
-      'img/phones/apple-iphone-11/yellow/02.jpg',
-      'img/phones/apple-iphone-11/yellow/03.jpg',
-      'img/phones/apple-iphone-11/yellow/04.jpg',
+      'img/phones/apple-iphone-11/yellow/00.png',
+      'img/phones/apple-iphone-11/yellow/01.png',
+      'img/phones/apple-iphone-11/yellow/02.png',
+      'img/phones/apple-iphone-11/yellow/03.png',
+      'img/phones/apple-iphone-11/yellow/04.png',
     ],
     description: [
       {
@@ -1371,11 +1371,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'black',
     images: [
-      'img/phones/apple-iphone-11/black/00.jpg',
-      'img/phones/apple-iphone-11/black/01.jpg',
-      'img/phones/apple-iphone-11/black/02.jpg',
-      'img/phones/apple-iphone-11/black/03.jpg',
-      'img/phones/apple-iphone-11/black/04.jpg',
+      'img/phones/apple-iphone-11/black/00.png',
+      'img/phones/apple-iphone-11/black/01.png',
+      'img/phones/apple-iphone-11/black/02.png',
+      'img/phones/apple-iphone-11/black/03.png',
+      'img/phones/apple-iphone-11/black/04.png',
     ],
     description: [
       {
@@ -1419,11 +1419,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'green',
     images: [
-      'img/phones/apple-iphone-11/green/00.jpg',
-      'img/phones/apple-iphone-11/green/01.jpg',
-      'img/phones/apple-iphone-11/green/02.jpg',
-      'img/phones/apple-iphone-11/green/03.jpg',
-      'img/phones/apple-iphone-11/green/04.jpg',
+      'img/phones/apple-iphone-11/green/00.png',
+      'img/phones/apple-iphone-11/green/01.png',
+      'img/phones/apple-iphone-11/green/02.png',
+      'img/phones/apple-iphone-11/green/03.png',
+      'img/phones/apple-iphone-11/green/04.png',
     ],
     description: [
       {
@@ -1467,11 +1467,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'purple',
     images: [
-      'img/phones/apple-iphone-11/purple/00.jpg',
-      'img/phones/apple-iphone-11/purple/01.jpg',
-      'img/phones/apple-iphone-11/purple/02.jpg',
-      'img/phones/apple-iphone-11/purple/03.jpg',
-      'img/phones/apple-iphone-11/purple/04.jpg',
+      'img/phones/apple-iphone-11/purple/00.png',
+      'img/phones/apple-iphone-11/purple/01.png',
+      'img/phones/apple-iphone-11/purple/02.png',
+      'img/phones/apple-iphone-11/purple/03.png',
+      'img/phones/apple-iphone-11/purple/04.png',
     ],
     description: [
       {
@@ -1515,11 +1515,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'red',
     images: [
-      'img/phones/apple-iphone-11/red/00.jpg',
-      'img/phones/apple-iphone-11/red/01.jpg',
-      'img/phones/apple-iphone-11/red/02.jpg',
-      'img/phones/apple-iphone-11/red/03.jpg',
-      'img/phones/apple-iphone-11/red/04.jpg',
+      'img/phones/apple-iphone-11/red/00.png',
+      'img/phones/apple-iphone-11/red/01.png',
+      'img/phones/apple-iphone-11/red/02.png',
+      'img/phones/apple-iphone-11/red/03.png',
+      'img/phones/apple-iphone-11/red/04.png',
     ],
     description: [
       {
@@ -1563,11 +1563,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'white',
     images: [
-      'img/phones/apple-iphone-11/white/00.jpg',
-      'img/phones/apple-iphone-11/white/01.jpg',
-      'img/phones/apple-iphone-11/white/02.jpg',
-      'img/phones/apple-iphone-11/white/03.jpg',
-      'img/phones/apple-iphone-11/white/04.jpg',
+      'img/phones/apple-iphone-11/white/00.png',
+      'img/phones/apple-iphone-11/white/01.png',
+      'img/phones/apple-iphone-11/white/02.png',
+      'img/phones/apple-iphone-11/white/03.png',
+      'img/phones/apple-iphone-11/white/04.png',
     ],
     description: [
       {
@@ -1611,11 +1611,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'yellow',
     images: [
-      'img/phones/apple-iphone-11/yellow/00.jpg',
-      'img/phones/apple-iphone-11/yellow/01.jpg',
-      'img/phones/apple-iphone-11/yellow/02.jpg',
-      'img/phones/apple-iphone-11/yellow/03.jpg',
-      'img/phones/apple-iphone-11/yellow/04.jpg',
+      'img/phones/apple-iphone-11/yellow/00.png',
+      'img/phones/apple-iphone-11/yellow/01.png',
+      'img/phones/apple-iphone-11/yellow/02.png',
+      'img/phones/apple-iphone-11/yellow/03.png',
+      'img/phones/apple-iphone-11/yellow/04.png',
     ],
     description: [
       {
@@ -1659,11 +1659,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'black',
     images: [
-      'img/phones/apple-iphone-11/black/00.jpg',
-      'img/phones/apple-iphone-11/black/01.jpg',
-      'img/phones/apple-iphone-11/black/02.jpg',
-      'img/phones/apple-iphone-11/black/03.jpg',
-      'img/phones/apple-iphone-11/black/04.jpg',
+      'img/phones/apple-iphone-11/black/00.png',
+      'img/phones/apple-iphone-11/black/01.png',
+      'img/phones/apple-iphone-11/black/02.png',
+      'img/phones/apple-iphone-11/black/03.png',
+      'img/phones/apple-iphone-11/black/04.png',
     ],
     description: [
       {
@@ -1707,11 +1707,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'green',
     images: [
-      'img/phones/apple-iphone-11/green/00.jpg',
-      'img/phones/apple-iphone-11/green/01.jpg',
-      'img/phones/apple-iphone-11/green/02.jpg',
-      'img/phones/apple-iphone-11/green/03.jpg',
-      'img/phones/apple-iphone-11/green/04.jpg',
+      'img/phones/apple-iphone-11/green/00.png',
+      'img/phones/apple-iphone-11/green/01.png',
+      'img/phones/apple-iphone-11/green/02.png',
+      'img/phones/apple-iphone-11/green/03.png',
+      'img/phones/apple-iphone-11/green/04.png',
     ],
     description: [
       {
@@ -1755,11 +1755,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'purple',
     images: [
-      'img/phones/apple-iphone-11/purple/00.jpg',
-      'img/phones/apple-iphone-11/purple/01.jpg',
-      'img/phones/apple-iphone-11/purple/02.jpg',
-      'img/phones/apple-iphone-11/purple/03.jpg',
-      'img/phones/apple-iphone-11/purple/04.jpg',
+      'img/phones/apple-iphone-11/purple/00.png',
+      'img/phones/apple-iphone-11/purple/01.png',
+      'img/phones/apple-iphone-11/purple/02.png',
+      'img/phones/apple-iphone-11/purple/03.png',
+      'img/phones/apple-iphone-11/purple/04.png',
     ],
     description: [
       {
@@ -1803,11 +1803,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'red',
     images: [
-      'img/phones/apple-iphone-11/red/00.jpg',
-      'img/phones/apple-iphone-11/red/01.jpg',
-      'img/phones/apple-iphone-11/red/02.jpg',
-      'img/phones/apple-iphone-11/red/03.jpg',
-      'img/phones/apple-iphone-11/red/04.jpg',
+      'img/phones/apple-iphone-11/red/00.png',
+      'img/phones/apple-iphone-11/red/01.png',
+      'img/phones/apple-iphone-11/red/02.png',
+      'img/phones/apple-iphone-11/red/03.png',
+      'img/phones/apple-iphone-11/red/04.png',
     ],
     description: [
       {
@@ -1851,11 +1851,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'white',
     images: [
-      'img/phones/apple-iphone-11/white/00.jpg',
-      'img/phones/apple-iphone-11/white/01.jpg',
-      'img/phones/apple-iphone-11/white/02.jpg',
-      'img/phones/apple-iphone-11/white/03.jpg',
-      'img/phones/apple-iphone-11/white/04.jpg',
+      'img/phones/apple-iphone-11/white/00.png',
+      'img/phones/apple-iphone-11/white/01.png',
+      'img/phones/apple-iphone-11/white/02.png',
+      'img/phones/apple-iphone-11/white/03.png',
+      'img/phones/apple-iphone-11/white/04.png',
     ],
     description: [
       {
@@ -1899,11 +1899,11 @@ const phones = [
     colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
     color: 'yellow',
     images: [
-      'img/phones/apple-iphone-11/yellow/00.jpg',
-      'img/phones/apple-iphone-11/yellow/01.jpg',
-      'img/phones/apple-iphone-11/yellow/02.jpg',
-      'img/phones/apple-iphone-11/yellow/03.jpg',
-      'img/phones/apple-iphone-11/yellow/04.jpg',
+      'img/phones/apple-iphone-11/yellow/00.png',
+      'img/phones/apple-iphone-11/yellow/01.png',
+      'img/phones/apple-iphone-11/yellow/02.png',
+      'img/phones/apple-iphone-11/yellow/03.png',
+      'img/phones/apple-iphone-11/yellow/04.png',
     ],
     description: [
       {
@@ -1947,9 +1947,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro/gold/00.png',
+      'img/phones/apple-iphone-11-pro/gold/01.png',
+      'img/phones/apple-iphone-11-pro/gold/02.png',
     ],
     description: [
       {
@@ -1993,10 +1993,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/02.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/03.jpg',
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/02.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/03.png',
     ],
     description: [
       {
@@ -2040,9 +2040,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro/silver/00.png',
+      'img/phones/apple-iphone-11-pro/silver/01.png',
+      'img/phones/apple-iphone-11-pro/silver/02.png',
     ],
     description: [
       {
@@ -2086,9 +2086,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro/spacegray/02.png',
     ],
     description: [
       {
@@ -2132,9 +2132,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro/gold/00.png',
+      'img/phones/apple-iphone-11-pro/gold/01.png',
+      'img/phones/apple-iphone-11-pro/gold/02.png',
     ],
     description: [
       {
@@ -2178,10 +2178,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/02.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/03.jpg',
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/02.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/03.png',
     ],
     description: [
       {
@@ -2225,9 +2225,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro/silver/00.png',
+      'img/phones/apple-iphone-11-pro/silver/01.png',
+      'img/phones/apple-iphone-11-pro/silver/02.png',
     ],
     description: [
       {
@@ -2271,9 +2271,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro/spacegray/02.png',
     ],
     description: [
       {
@@ -2317,9 +2317,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro/gold/00.png',
+      'img/phones/apple-iphone-11-pro/gold/01.png',
+      'img/phones/apple-iphone-11-pro/gold/02.png',
     ],
     description: [
       {
@@ -2363,10 +2363,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/02.jpg',
-      'img/phones/apple-iphone-11-pro/midnightgreen/03.jpg',
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/02.png',
+      'img/phones/apple-iphone-11-pro/midnightgreen/03.png',
     ],
     description: [
       {
@@ -2410,9 +2410,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro/silver/00.png',
+      'img/phones/apple-iphone-11-pro/silver/01.png',
+      'img/phones/apple-iphone-11-pro/silver/02.png',
     ],
     description: [
       {
@@ -2456,9 +2456,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro/spacegray/02.png',
     ],
     description: [
       {
@@ -2502,9 +2502,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/gold/00.png',
+      'img/phones/apple-iphone-11-pro-max/gold/01.png',
+      'img/phones/apple-iphone-11-pro-max/gold/02.png',
     ],
     description: [
       {
@@ -2548,9 +2548,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.png',
     ],
     description: [
       {
@@ -2594,9 +2594,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/silver/00.png',
+      'img/phones/apple-iphone-11-pro-max/silver/01.png',
+      'img/phones/apple-iphone-11-pro-max/silver/02.png',
     ],
     description: [
       {
@@ -2640,9 +2640,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/02.png',
     ],
     description: [
       {
@@ -2686,9 +2686,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/gold/00.png',
+      'img/phones/apple-iphone-11-pro-max/gold/01.png',
+      'img/phones/apple-iphone-11-pro-max/gold/02.png',
     ],
     description: [
       {
@@ -2732,9 +2732,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.png',
     ],
     description: [
       {
@@ -2778,9 +2778,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/silver/00.png',
+      'img/phones/apple-iphone-11-pro-max/silver/01.png',
+      'img/phones/apple-iphone-11-pro-max/silver/02.png',
     ],
     description: [
       {
@@ -2824,9 +2824,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/02.png',
     ],
     description: [
       {
@@ -2870,9 +2870,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/gold/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/gold/00.png',
+      'img/phones/apple-iphone-11-pro-max/gold/01.png',
+      'img/phones/apple-iphone-11-pro-max/gold/02.png',
     ],
     description: [
       {
@@ -2916,9 +2916,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'midnightgreen',
     images: [
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/01.png',
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/02.png',
     ],
     description: [
       {
@@ -2962,9 +2962,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/silver/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/silver/00.png',
+      'img/phones/apple-iphone-11-pro-max/silver/01.png',
+      'img/phones/apple-iphone-11-pro-max/silver/02.png',
     ],
     description: [
       {
@@ -3008,9 +3008,9 @@ const phones = [
     colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/01.jpg',
-      'img/phones/apple-iphone-11-pro-max/spacegray/02.jpg',
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/01.png',
+      'img/phones/apple-iphone-11-pro-max/spacegray/02.png',
     ],
     description: [
       {
@@ -3054,11 +3054,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'black',
     images: [
-      'img/phones/apple-iphone-7/black/00.jpg',
-      'img/phones/apple-iphone-7/black/01.jpg',
-      'img/phones/apple-iphone-7/black/02.jpg',
-      'img/phones/apple-iphone-7/black/03.jpg',
-      'img/phones/apple-iphone-7/black/04.jpg',
+      'img/phones/apple-iphone-7/black/00.png',
+      'img/phones/apple-iphone-7/black/01.png',
+      'img/phones/apple-iphone-7/black/02.png',
+      'img/phones/apple-iphone-7/black/03.png',
+      'img/phones/apple-iphone-7/black/04.png',
     ],
     description: [
       {
@@ -3102,11 +3102,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-7/gold/00.jpg',
-      'img/phones/apple-iphone-7/gold/01.jpg',
-      'img/phones/apple-iphone-7/gold/02.jpg',
-      'img/phones/apple-iphone-7/gold/03.jpg',
-      'img/phones/apple-iphone-7/gold/04.jpg',
+      'img/phones/apple-iphone-7/gold/00.png',
+      'img/phones/apple-iphone-7/gold/01.png',
+      'img/phones/apple-iphone-7/gold/02.png',
+      'img/phones/apple-iphone-7/gold/03.png',
+      'img/phones/apple-iphone-7/gold/04.png',
     ],
     description: [
       {
@@ -3150,11 +3150,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'rosegold',
     images: [
-      'img/phones/apple-iphone-7/rosegold/00.jpg',
-      'img/phones/apple-iphone-7/rosegold/01.jpg',
-      'img/phones/apple-iphone-7/rosegold/02.jpg',
-      'img/phones/apple-iphone-7/rosegold/03.jpg',
-      'img/phones/apple-iphone-7/rosegold/04.jpg',
+      'img/phones/apple-iphone-7/rosegold/00.png',
+      'img/phones/apple-iphone-7/rosegold/01.png',
+      'img/phones/apple-iphone-7/rosegold/02.png',
+      'img/phones/apple-iphone-7/rosegold/03.png',
+      'img/phones/apple-iphone-7/rosegold/04.png',
     ],
     description: [
       {
@@ -3198,11 +3198,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-7/silver/00.jpg',
-      'img/phones/apple-iphone-7/silver/01.jpg',
-      'img/phones/apple-iphone-7/silver/02.jpg',
-      'img/phones/apple-iphone-7/silver/03.jpg',
-      'img/phones/apple-iphone-7/silver/04.jpg',
+      'img/phones/apple-iphone-7/silver/00.png',
+      'img/phones/apple-iphone-7/silver/01.png',
+      'img/phones/apple-iphone-7/silver/02.png',
+      'img/phones/apple-iphone-7/silver/03.png',
+      'img/phones/apple-iphone-7/silver/04.png',
     ],
     description: [
       {
@@ -3246,11 +3246,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'black',
     images: [
-      'img/phones/apple-iphone-7-plus/black/00.jpg',
-      'img/phones/apple-iphone-7-plus/black/01.jpg',
-      'img/phones/apple-iphone-7-plus/black/02.jpg',
-      'img/phones/apple-iphone-7-plus/black/03.jpg',
-      'img/phones/apple-iphone-7-plus/black/04.jpg',
+      'img/phones/apple-iphone-7-plus/black/00.png',
+      'img/phones/apple-iphone-7-plus/black/01.png',
+      'img/phones/apple-iphone-7-plus/black/02.png',
+      'img/phones/apple-iphone-7-plus/black/03.png',
+      'img/phones/apple-iphone-7-plus/black/04.png',
     ],
     description: [
       {
@@ -3294,11 +3294,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-7-plus/gold/00.jpg',
-      'img/phones/apple-iphone-7-plus/gold/01.jpg',
-      'img/phones/apple-iphone-7-plus/gold/02.jpg',
-      'img/phones/apple-iphone-7-plus/gold/03.jpg',
-      'img/phones/apple-iphone-7-plus/gold/04.jpg',
+      'img/phones/apple-iphone-7-plus/gold/00.png',
+      'img/phones/apple-iphone-7-plus/gold/01.png',
+      'img/phones/apple-iphone-7-plus/gold/02.png',
+      'img/phones/apple-iphone-7-plus/gold/03.png',
+      'img/phones/apple-iphone-7-plus/gold/04.png',
     ],
     description: [
       {
@@ -3342,11 +3342,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'rosegold',
     images: [
-      'img/phones/apple-iphone-7-plus/rosegold/00.jpg',
-      'img/phones/apple-iphone-7-plus/rosegold/01.jpg',
-      'img/phones/apple-iphone-7-plus/rosegold/02.jpg',
-      'img/phones/apple-iphone-7-plus/rosegold/03.jpg',
-      'img/phones/apple-iphone-7-plus/rosegold/04.jpg',
+      'img/phones/apple-iphone-7-plus/rosegold/00.png',
+      'img/phones/apple-iphone-7-plus/rosegold/01.png',
+      'img/phones/apple-iphone-7-plus/rosegold/02.png',
+      'img/phones/apple-iphone-7-plus/rosegold/03.png',
+      'img/phones/apple-iphone-7-plus/rosegold/04.png',
     ],
     description: [
       {
@@ -3390,11 +3390,11 @@ const phones = [
     colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-7-plus/silver/00.jpg',
-      'img/phones/apple-iphone-7-plus/silver/01.jpg',
-      'img/phones/apple-iphone-7-plus/silver/02.jpg',
-      'img/phones/apple-iphone-7-plus/silver/03.jpg',
-      'img/phones/apple-iphone-7-plus/silver/04.jpg',
+      'img/phones/apple-iphone-7-plus/silver/00.png',
+      'img/phones/apple-iphone-7-plus/silver/01.png',
+      'img/phones/apple-iphone-7-plus/silver/02.png',
+      'img/phones/apple-iphone-7-plus/silver/03.png',
+      'img/phones/apple-iphone-7-plus/silver/04.png',
     ],
     description: [
       {
@@ -3438,10 +3438,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-8/gold/00.jpg',
-      'img/phones/apple-iphone-8/gold/01.jpg',
-      'img/phones/apple-iphone-8/gold/02.jpg',
-      'img/phones/apple-iphone-8/gold/03.jpg',
+      'img/phones/apple-iphone-8/gold/00.png',
+      'img/phones/apple-iphone-8/gold/01.png',
+      'img/phones/apple-iphone-8/gold/02.png',
+      'img/phones/apple-iphone-8/gold/03.png',
     ],
     description: [
       {
@@ -3485,10 +3485,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-8/silver/00.jpg',
-      'img/phones/apple-iphone-8/silver/01.jpg',
-      'img/phones/apple-iphone-8/silver/02.jpg',
-      'img/phones/apple-iphone-8/silver/03.jpg',
+      'img/phones/apple-iphone-8/silver/00.png',
+      'img/phones/apple-iphone-8/silver/01.png',
+      'img/phones/apple-iphone-8/silver/02.png',
+      'img/phones/apple-iphone-8/silver/03.png',
     ],
     description: [
       {
@@ -3532,10 +3532,10 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-8/spacegray/00.jpg',
-      'img/phones/apple-iphone-8/spacegray/01.jpg',
-      'img/phones/apple-iphone-8/spacegray/02.jpg',
-      'img/phones/apple-iphone-8/spacegray/03.jpg',
+      'img/phones/apple-iphone-8/spacegray/00.png',
+      'img/phones/apple-iphone-8/spacegray/01.png',
+      'img/phones/apple-iphone-8/spacegray/02.png',
+      'img/phones/apple-iphone-8/spacegray/03.png',
     ],
     description: [
       {
@@ -3579,11 +3579,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'coral',
     images: [
-      'img/phones/apple-iphone-xr/coral/00.jpg',
-      'img/phones/apple-iphone-xr/coral/01.jpg',
-      'img/phones/apple-iphone-xr/coral/02.jpg',
-      'img/phones/apple-iphone-xr/coral/03.jpg',
-      'img/phones/apple-iphone-xr/coral/04.jpg',
+      'img/phones/apple-iphone-xr/coral/00.png',
+      'img/phones/apple-iphone-xr/coral/01.png',
+      'img/phones/apple-iphone-xr/coral/02.png',
+      'img/phones/apple-iphone-xr/coral/03.png',
+      'img/phones/apple-iphone-xr/coral/04.png',
     ],
     description: [
       {
@@ -3627,11 +3627,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'red',
     images: [
-      'img/phones/apple-iphone-xr/red/00.jpg',
-      'img/phones/apple-iphone-xr/red/01.jpg',
-      'img/phones/apple-iphone-xr/red/02.jpg',
-      'img/phones/apple-iphone-xr/red/03.jpg',
-      'img/phones/apple-iphone-xr/red/04.jpg',
+      'img/phones/apple-iphone-xr/red/00.png',
+      'img/phones/apple-iphone-xr/red/01.png',
+      'img/phones/apple-iphone-xr/red/02.png',
+      'img/phones/apple-iphone-xr/red/03.png',
+      'img/phones/apple-iphone-xr/red/04.png',
     ],
     description: [
       {
@@ -3675,11 +3675,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'white',
     images: [
-      'img/phones/apple-iphone-xr/white/00.jpg',
-      'img/phones/apple-iphone-xr/white/01.jpg',
-      'img/phones/apple-iphone-xr/white/02.jpg',
-      'img/phones/apple-iphone-xr/white/03.jpg',
-      'img/phones/apple-iphone-xr/white/04.jpg',
+      'img/phones/apple-iphone-xr/white/00.png',
+      'img/phones/apple-iphone-xr/white/01.png',
+      'img/phones/apple-iphone-xr/white/02.png',
+      'img/phones/apple-iphone-xr/white/03.png',
+      'img/phones/apple-iphone-xr/white/04.png',
     ],
     description: [
       {
@@ -3723,11 +3723,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'yellow',
     images: [
-      'img/phones/apple-iphone-xr/yellow/00.jpg',
-      'img/phones/apple-iphone-xr/yellow/01.jpg',
-      'img/phones/apple-iphone-xr/yellow/02.jpg',
-      'img/phones/apple-iphone-xr/yellow/03.jpg',
-      'img/phones/apple-iphone-xr/yellow/04.jpg',
+      'img/phones/apple-iphone-xr/yellow/00.png',
+      'img/phones/apple-iphone-xr/yellow/01.png',
+      'img/phones/apple-iphone-xr/yellow/02.png',
+      'img/phones/apple-iphone-xr/yellow/03.png',
+      'img/phones/apple-iphone-xr/yellow/04.png',
     ],
     description: [
       {
@@ -3771,9 +3771,9 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'coral',
     images: [
-      'img/phones/apple-iphone-xr/coral/00.jpg',
-      'img/phones/apple-iphone-xr/coral/01.jpg',
-      'img/phones/apple-iphone-xr/coral/02.jpg',
+      'img/phones/apple-iphone-xr/coral/00.png',
+      'img/phones/apple-iphone-xr/coral/01.png',
+      'img/phones/apple-iphone-xr/coral/02.png',
     ],
     description: [
       {
@@ -3817,11 +3817,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'red',
     images: [
-      'img/phones/apple-iphone-xr/red/00.jpg',
-      'img/phones/apple-iphone-xr/red/01.jpg',
-      'img/phones/apple-iphone-xr/red/02.jpg',
-      'img/phones/apple-iphone-xr/red/03.jpg',
-      'img/phones/apple-iphone-xr/red/04.jpg',
+      'img/phones/apple-iphone-xr/red/00.png',
+      'img/phones/apple-iphone-xr/red/01.png',
+      'img/phones/apple-iphone-xr/red/02.png',
+      'img/phones/apple-iphone-xr/red/03.png',
+      'img/phones/apple-iphone-xr/red/04.png',
     ],
     description: [
       {
@@ -3865,11 +3865,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'white',
     images: [
-      'img/phones/apple-iphone-xr/white/00.jpg',
-      'img/phones/apple-iphone-xr/white/01.jpg',
-      'img/phones/apple-iphone-xr/white/02.jpg',
-      'img/phones/apple-iphone-xr/white/03.jpg',
-      'img/phones/apple-iphone-xr/white/04.jpg',
+      'img/phones/apple-iphone-xr/white/00.png',
+      'img/phones/apple-iphone-xr/white/01.png',
+      'img/phones/apple-iphone-xr/white/02.png',
+      'img/phones/apple-iphone-xr/white/03.png',
+      'img/phones/apple-iphone-xr/white/04.png',
     ],
     description: [
       {
@@ -3913,11 +3913,11 @@ const phones = [
     colorsAvailable: ['white', 'yellow', 'red', 'coral'],
     color: 'yellow',
     images: [
-      'img/phones/apple-iphone-xr/yellow/00.jpg',
-      'img/phones/apple-iphone-xr/yellow/01.jpg',
-      'img/phones/apple-iphone-xr/yellow/02.jpg',
-      'img/phones/apple-iphone-xr/yellow/03.jpg',
-      'img/phones/apple-iphone-xr/yellow/04.jpg',
+      'img/phones/apple-iphone-xr/yellow/00.png',
+      'img/phones/apple-iphone-xr/yellow/01.png',
+      'img/phones/apple-iphone-xr/yellow/02.png',
+      'img/phones/apple-iphone-xr/yellow/03.png',
+      'img/phones/apple-iphone-xr/yellow/04.png',
     ],
     description: [
       {
@@ -3961,11 +3961,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-xs/gold/00.jpg',
-      'img/phones/apple-iphone-xs/gold/01.jpg',
-      'img/phones/apple-iphone-xs/gold/02.jpg',
-      'img/phones/apple-iphone-xs/gold/03.jpg',
-      'img/phones/apple-iphone-xs/gold/04.jpg',
+      'img/phones/apple-iphone-xs/gold/00.png',
+      'img/phones/apple-iphone-xs/gold/01.png',
+      'img/phones/apple-iphone-xs/gold/02.png',
+      'img/phones/apple-iphone-xs/gold/03.png',
+      'img/phones/apple-iphone-xs/gold/04.png',
     ],
     description: [
       {
@@ -4009,11 +4009,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-xs/spacegray/00.jpg',
-      'img/phones/apple-iphone-xs/spacegray/01.jpg',
-      'img/phones/apple-iphone-xs/spacegray/02.jpg',
-      'img/phones/apple-iphone-xs/spacegray/03.jpg',
-      'img/phones/apple-iphone-xs/spacegray/04.jpg',
+      'img/phones/apple-iphone-xs/spacegray/00.png',
+      'img/phones/apple-iphone-xs/spacegray/01.png',
+      'img/phones/apple-iphone-xs/spacegray/02.png',
+      'img/phones/apple-iphone-xs/spacegray/03.png',
+      'img/phones/apple-iphone-xs/spacegray/04.png',
     ],
     description: [
       {
@@ -4057,11 +4057,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-xs/gold/00.jpg',
-      'img/phones/apple-iphone-xs/gold/01.jpg',
-      'img/phones/apple-iphone-xs/gold/02.jpg',
-      'img/phones/apple-iphone-xs/gold/03.jpg',
-      'img/phones/apple-iphone-xs/gold/04.jpg',
+      'img/phones/apple-iphone-xs/gold/00.png',
+      'img/phones/apple-iphone-xs/gold/01.png',
+      'img/phones/apple-iphone-xs/gold/02.png',
+      'img/phones/apple-iphone-xs/gold/03.png',
+      'img/phones/apple-iphone-xs/gold/04.png',
     ],
     description: [
       {
@@ -4105,11 +4105,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-xs/spacegray/00.jpg',
-      'img/phones/apple-iphone-xs/spacegray/01.jpg',
-      'img/phones/apple-iphone-xs/spacegray/02.jpg',
-      'img/phones/apple-iphone-xs/spacegray/03.jpg',
-      'img/phones/apple-iphone-xs/spacegray/04.jpg',
+      'img/phones/apple-iphone-xs/spacegray/00.png',
+      'img/phones/apple-iphone-xs/spacegray/01.png',
+      'img/phones/apple-iphone-xs/spacegray/02.png',
+      'img/phones/apple-iphone-xs/spacegray/03.png',
+      'img/phones/apple-iphone-xs/spacegray/04.png',
     ],
     description: [
       {
@@ -4153,11 +4153,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-xs-max/gold/00.jpg',
-      'img/phones/apple-iphone-xs-max/gold/01.jpg',
-      'img/phones/apple-iphone-xs-max/gold/02.jpg',
-      'img/phones/apple-iphone-xs-max/gold/03.jpg',
-      'img/phones/apple-iphone-xs-max/gold/04.jpg',
+      'img/phones/apple-iphone-xs-max/gold/00.png',
+      'img/phones/apple-iphone-xs-max/gold/01.png',
+      'img/phones/apple-iphone-xs-max/gold/02.png',
+      'img/phones/apple-iphone-xs-max/gold/03.png',
+      'img/phones/apple-iphone-xs-max/gold/04.png',
     ],
     description: [
       {
@@ -4201,11 +4201,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-xs-max/silver/00.jpg',
-      'img/phones/apple-iphone-xs-max/silver/01.jpg',
-      'img/phones/apple-iphone-xs-max/silver/02.jpg',
-      'img/phones/apple-iphone-xs-max/silver/03.jpg',
-      'img/phones/apple-iphone-xs-max/silver/04.jpg',
+      'img/phones/apple-iphone-xs-max/silver/00.png',
+      'img/phones/apple-iphone-xs-max/silver/01.png',
+      'img/phones/apple-iphone-xs-max/silver/02.png',
+      'img/phones/apple-iphone-xs-max/silver/03.png',
+      'img/phones/apple-iphone-xs-max/silver/04.png',
     ],
     description: [
       {
@@ -4249,11 +4249,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/01.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/02.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/03.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/04.jpg',
+      'img/phones/apple-iphone-xs-max/spacegray/00.png',
+      'img/phones/apple-iphone-xs-max/spacegray/01.png',
+      'img/phones/apple-iphone-xs-max/spacegray/02.png',
+      'img/phones/apple-iphone-xs-max/spacegray/03.png',
+      'img/phones/apple-iphone-xs-max/spacegray/04.png',
     ],
     description: [
       {
@@ -4297,11 +4297,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'gold',
     images: [
-      'img/phones/apple-iphone-xs-max/gold/00.jpg',
-      'img/phones/apple-iphone-xs-max/gold/01.jpg',
-      'img/phones/apple-iphone-xs-max/gold/02.jpg',
-      'img/phones/apple-iphone-xs-max/gold/03.jpg',
-      'img/phones/apple-iphone-xs-max/gold/04.jpg',
+      'img/phones/apple-iphone-xs-max/gold/00.png',
+      'img/phones/apple-iphone-xs-max/gold/01.png',
+      'img/phones/apple-iphone-xs-max/gold/02.png',
+      'img/phones/apple-iphone-xs-max/gold/03.png',
+      'img/phones/apple-iphone-xs-max/gold/04.png',
     ],
     description: [
       {
@@ -4345,11 +4345,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'silver',
     images: [
-      'img/phones/apple-iphone-xs-max/silver/00.jpg',
-      'img/phones/apple-iphone-xs-max/silver/01.jpg',
-      'img/phones/apple-iphone-xs-max/silver/02.jpg',
-      'img/phones/apple-iphone-xs-max/silver/03.jpg',
-      'img/phones/apple-iphone-xs-max/silver/04.jpg',
+      'img/phones/apple-iphone-xs-max/silver/00.png',
+      'img/phones/apple-iphone-xs-max/silver/01.png',
+      'img/phones/apple-iphone-xs-max/silver/02.png',
+      'img/phones/apple-iphone-xs-max/silver/03.png',
+      'img/phones/apple-iphone-xs-max/silver/04.png',
     ],
     description: [
       {
@@ -4393,11 +4393,11 @@ const phones = [
     colorsAvailable: ['spacegray', 'gold', 'silver'],
     color: 'spacegray',
     images: [
-      'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/01.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/02.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/03.jpg',
-      'img/phones/apple-iphone-xs-max/spacegray/04.jpg',
+      'img/phones/apple-iphone-xs-max/spacegray/00.png',
+      'img/phones/apple-iphone-xs-max/spacegray/01.png',
+      'img/phones/apple-iphone-xs-max/spacegray/02.png',
+      'img/phones/apple-iphone-xs-max/spacegray/03.png',
+      'img/phones/apple-iphone-xs-max/spacegray/04.png',
     ],
     description: [
       {
@@ -4436,14 +4436,14 @@ const syncDb = async () => {
 
   initDb();
 
-  await Product.sync({ alter: true }).catch((error) =>
+  await Product.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(products.map((phone) => Product.create(phone)))
     .then(() => console.log('Success'))
     .catch((error) => console.log(error.message));
 
-  await Phone.sync({ alter: true }).catch((error) =>
+  await Phone.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(phones.map((phone) => Phone.create(phone)))
