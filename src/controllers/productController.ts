@@ -1,8 +1,13 @@
 import { Request, Response } from 'express';
 import productService from '../services/productService';
 import phoneService from '../services/phoneService';
+import tabletService from '../services/tabletService';
+import watchService from '../services/watchService';
 import { SortBy } from '../types/SortBy';
 import { Category } from '../types/Category';
+import Tablet from '../models/Tablet';
+import Watch from '../models/Watch';
+import Phone from '../models/Phone';
 
 const getAll = async (req: Request, res: Response) => {
   const products = await productService.getAll();
@@ -70,7 +75,16 @@ const getOne = async (req: Request, res: Response) => {
     return;
   }
 
-  const product = await phoneService.getOne(productId);
+  let product: Phone | Tablet | Watch | null
+    = await phoneService.getOne(productId);
+
+  if (!product) {
+    product = await tabletService.getOne(productId);
+  }
+
+  if (!product) {
+    product = await watchService.getOne(productId);
+  }
 
   if (!product) {
     res.sendStatus(404);

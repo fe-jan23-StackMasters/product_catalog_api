@@ -2,12 +2,14 @@ import { Sequelize } from 'sequelize-typescript';
 import 'dotenv/config.js';
 import Product from '../models/Product';
 import Phone from '../models/Phone';
+import Watch from '../models/Watch';
+import Tablet from '../models/Tablet';
 
 const { DB_URL = '' } = process.env;
 
 export const initDb = async () => {
   const sequelize = new Sequelize(DB_URL, {
-    models: [Product, Phone],
+    models: [Product, Phone, Watch, Tablet],
     dialectOptions: {
       ssl: true,
     },
