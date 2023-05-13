@@ -37,6 +37,8 @@ const getWithParams = async (
   perPage: number,
   category: Category[] | Category,
   sortBy: SortBy,
+  priceMin: number,
+  priceMax: number,
 ) => {
   let productType = category;
 
@@ -50,6 +52,9 @@ const getWithParams = async (
 
   const products = await Product.findAll({
     where: {
+      price: {
+        [Op.between]: [priceMin, priceMax],
+      },
       category: {
         [Op.in]: productType,
       },

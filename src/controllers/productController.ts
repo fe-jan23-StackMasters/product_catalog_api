@@ -16,6 +16,8 @@ const getOnPage = async (req: Request, res: Response) => {
     page = 1,
     productType = Object.values(Category),
     sortBy = SortBy.NEW,
+    priceMin = 0,
+    priceMax = 1000000,
   } = req.query;
 
   if (Array.isArray(perPage) || Array.isArray(page) || Array.isArray(sortBy)) {
@@ -29,6 +31,8 @@ const getOnPage = async (req: Request, res: Response) => {
     +perPage,
     productType as Category[],
     sortBy as SortBy,
+    +priceMin,
+    +priceMax,
   );
 
   const models = await productService.getModelsNumber(
