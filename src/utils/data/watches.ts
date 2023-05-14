@@ -3,19 +3,19 @@ import { Watch } from '../../types/Watch';
 /* eslint-disable max-len */
 export const watches: Watch[] = [
   {
-    id: 'apple-watch-series-3-38mm-space-gray',
+    id: 'apple-watch-series-3-38mm-spacegray',
     namespaceId: 'apple-watch-series-3',
     name: 'Apple Watch Series 3 38mm Space Gray',
     capacityAvailable: ['38mm', '42mm'],
     capacity: '38mm',
     priceRegular: 199,
     priceDiscount: 169,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
-    color: 'space gray',
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-3/space-gray/00.webp',
-      'img/watches/series-3/space-gray/01.webp',
-      'img/watches/series-3/space-gray/02.webp',
+      'img/watches/series-3/spacegray/00.webp',
+      'img/watches/series-3/spacegray/01.webp',
+      'img/watches/series-3/spacegray/02.webp',
     ],
     description: [
       {
@@ -44,19 +44,19 @@ export const watches: Watch[] = [
     cell: ['Wi-Fi', 'Bluetooth', 'LTE'],
   },
   {
-    id: 'apple-watch-series-3-42mm-space-gray',
+    id: 'apple-watch-series-3-42mm-spacegray',
     namespaceId: 'apple-watch-series-3',
     name: 'Apple Watch Series 3 42mm Space Gray',
     capacityAvailable: ['38mm', '42mm'],
     capacity: '42mm',
     priceRegular: 250,
     priceDiscount: 219,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
-    color: 'space gray',
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-3/space-gray/00.webp',
-      'img/watches/series-3/space-gray/01.webp',
-      'img/watches/series-3/space-gray/02.webp',
+      'img/watches/series-3/spacegray/00.webp',
+      'img/watches/series-3/spacegray/01.webp',
+      'img/watches/series-3/spacegray/02.webp',
     ],
     description: [
       {
@@ -93,7 +93,7 @@ export const watches: Watch[] = [
     capacity: '38mm',
     priceRegular: 199,
     priceDiscount: 169,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'gold',
     images: [
       'img/watches/series-3/gold/00.webp',
@@ -134,7 +134,7 @@ export const watches: Watch[] = [
     capacity: '42mm',
     priceRegular: 250,
     priceDiscount: 219,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'gold',
     images: [
       'img/watches/series-3/gold/00.webp',
@@ -176,7 +176,7 @@ export const watches: Watch[] = [
     capacity: '38mm',
     priceRegular: 199,
     priceDiscount: 169,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'silver',
     images: [
       'img/watches/series-3/silver/00.webp',
@@ -217,7 +217,7 @@ export const watches: Watch[] = [
     capacity: '42mm',
     priceRegular: 250,
     priceDiscount: 219,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'silver',
     images: [
       'img/watches/series-3/silver/00.webp',
@@ -251,19 +251,19 @@ export const watches: Watch[] = [
     cell: ['Wi-Fi', 'Bluetooth', 'LTE'],
   },
   {
-    id: 'apple-watch-series-6-40mm-space-gray',
+    id: 'apple-watch-series-6-40mm-spacegray',
     namespaceId: 'apple-watch-series-6',
     name: 'Apple Watch Series 6 40mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 329,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
-    color: 'space gray',
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-6/space-gray/00.webp',
-      'img/watches/series-6/space-gray/01.webp',
-      'img/watches/series-6/space-gray/02.webp',
+      'img/watches/series-6/spacegray/00.webp',
+      'img/watches/series-6/spacegray/01.webp',
+      'img/watches/series-6/spacegray/02.webp',
     ],
     description: [
       {
@@ -292,19 +292,19 @@ export const watches: Watch[] = [
     cell: ['Wi-Fi', 'Bluetooth', 'LTE'],
   },
   {
-    id: 'apple-watch-series-6-44mm-space-gray',
+    id: 'apple-watch-series-6-44mm-spacegray',
     namespaceId: 'apple-watch-series-6',
     name: 'Apple Watch Series 6 44mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 359,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
-    color: 'space gray',
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-6/space-gray/00.webp',
-      'img/watches/series-6/space-gray/01.webp',
-      'img/watches/series-6/space-gray/02.webp',
+      'img/watches/series-6/spacegray/00.webp',
+      'img/watches/series-6/spacegray/01.webp',
+      'img/watches/series-6/spacegray/02.webp',
     ],
     description: [
       {
@@ -341,7 +341,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 329,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'silver',
     images: [
       'img/watches/series-6/silver/00.webp',
@@ -382,7 +382,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 359,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'silver',
     images: [
       'img/watches/series-6/silver/00.webp',
@@ -424,7 +424,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 329,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'gold',
     images: [
       'img/watches/series-6/gold/00.webp',
@@ -465,7 +465,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 359,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'gold',
     images: [
       'img/watches/series-6/gold/00.webp',
@@ -507,7 +507,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 329,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'blue',
     images: [
       'img/watches/series-6/blue/00.webp',
@@ -548,7 +548,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 359,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'blue',
     images: [
       'img/watches/series-6/blue/00.webp',
@@ -590,7 +590,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 329,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'blue',
     images: [
       'img/watches/series-6/blue/00.webp',
@@ -631,7 +631,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 359,
-    colorsAvailable: ['space gray', 'silver', 'gold', 'blue', 'red'],
+    colorsAvailable: ['spacegray', 'silver', 'gold', 'blue', 'red'],
     color: 'red',
     images: [
       'img/watches/series-6/red/00.webp',
@@ -673,7 +673,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 299,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'silver',
     images: [
       'img/watches/series-5/silver/00.webp',
@@ -714,7 +714,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 399,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'silver',
     images: [
       'img/watches/series-5/silver/00.webp',
@@ -756,7 +756,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 299,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'gold',
     images: [
       'img/watches/series-5/gold/00.webp',
@@ -797,7 +797,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 399,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'gold',
     images: [
       'img/watches/series-5/gold/00.webp',
@@ -832,19 +832,19 @@ export const watches: Watch[] = [
   },
 
   {
-    id: 'apple-watch-series-5-40mm-space-gray',
+    id: 'apple-watch-series-5-40mm-spacegray',
     namespaceId: 'apple-watch-series-5',
     name: 'Apple Watch Series 5 40mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 299,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
-    color: 'space-gray',
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-5/space-gray/00.webp',
-      'img/watches/series-5/space-gray/01.webp',
-      'img/watches/series-5/space-gray/02.webp',
+      'img/watches/series-5/spacegray/00.webp',
+      'img/watches/series-5/spacegray/01.webp',
+      'img/watches/series-5/spacegray/02.webp',
     ],
     description: [
       {
@@ -873,19 +873,19 @@ export const watches: Watch[] = [
     cell: ['Wi-Fi', 'Bluetooth', 'LTE'],
   },
   {
-    id: 'apple-watch-series-5-44mm-space-gray',
+    id: 'apple-watch-series-5-44mm-spacegray',
     namespaceId: 'apple-watch-series-5',
     name: 'Apple Watch Series 5 44mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 399,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
-    color: 'space-gray',
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-5/space-gray/00.webp',
-      'img/watches/series-5/space-gray/01.webp',
-      'img/watches/series-5/space-gray/02.webp',
+      'img/watches/series-5/spacegray/00.webp',
+      'img/watches/series-5/spacegray/01.webp',
+      'img/watches/series-5/spacegray/02.webp',
     ],
     description: [
       {
@@ -922,7 +922,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 349,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'silver',
     images: [
       'img/watches/series-4/silver/00.webp',
@@ -964,7 +964,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 379,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'silver',
     images: [
       'img/watches/series-4/silver/00.webp',
@@ -1006,7 +1006,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 349,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'gold',
     images: [
       'img/watches/series-4/gold/00.webp',
@@ -1048,7 +1048,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 379,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'gold',
     images: [
       'img/watches/series-4/gold/00.webp',
@@ -1083,19 +1083,19 @@ export const watches: Watch[] = [
   },
 
   {
-    id: 'apple-watch-series-4-40mm-space-gray',
+    id: 'apple-watch-series-4-40mm-spacegray',
     namespaceId: 'apple-watch-series-4',
     name: 'Apple Watch Series 4 40mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '40mm',
     priceRegular: 399,
     priceDiscount: 349,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
-    color: 'space-gray',
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-4/space-gray/00.webp',
-      'img/watches/series-4/space-gray/01.webp',
-      'img/watches/series-4/space-gray/02.webp',
+      'img/watches/series-4/spacegray/00.webp',
+      'img/watches/series-4/spacegray/01.webp',
+      'img/watches/series-4/spacegray/02.webp',
     ],
     description: [
       {
@@ -1125,19 +1125,19 @@ export const watches: Watch[] = [
   },
 
   {
-    id: 'apple-watch-series-4-44mm-space-gray',
+    id: 'apple-watch-series-4-44mm-spacegray',
     namespaceId: 'apple-watch-series-4',
     name: 'Apple Watch Series 4 44mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '44mm',
     priceRegular: 429,
     priceDiscount: 379,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
-    color: 'space-gray',
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
+    color: 'spacegray',
     images: [
-      'img/watches/series-4/space-gray/00.webp',
-      'img/watches/series-4/space-gray/01.webp',
-      'img/watches/series-4/space-gray/02.webp',
+      'img/watches/series-4/spacegray/00.webp',
+      'img/watches/series-4/spacegray/01.webp',
+      'img/watches/series-4/spacegray/02.webp',
     ],
     description: [
       {
@@ -1174,7 +1174,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 279,
     priceDiscount: 249,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'silver',
     images: [
       'img/watches/se/silver/00.webp',
@@ -1215,7 +1215,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 309,
     priceDiscount: 279,
-    colorsAvailable: ['silver', 'gold', 'space gray'],
+    colorsAvailable: ['silver', 'gold', 'spacegray'],
     color: 'silver',
     images: [
       'img/watches/se/silver/00.webp',
@@ -1257,7 +1257,7 @@ export const watches: Watch[] = [
     capacity: '40mm',
     priceRegular: 279,
     priceDiscount: 259,
-    colorsAvailable: ['silver', 'space gray', 'gold'],
+    colorsAvailable: ['silver', 'spacegray', 'gold'],
     color: 'gold',
     images: [
       'img/watches/se/gold/00.webp',
@@ -1298,7 +1298,7 @@ export const watches: Watch[] = [
     capacity: '44mm',
     priceRegular: 309,
     priceDiscount: 289,
-    colorsAvailable: ['space gray', 'silver', 'gold'],
+    colorsAvailable: ['spacegray', 'silver', 'gold'],
     color: 'gold',
     images: [
       'img/watches/se/gold/00.webp',
@@ -1333,19 +1333,19 @@ export const watches: Watch[] = [
   },
 
   {
-    id: 'apple-watch-se-40mm-space-gray',
+    id: 'apple-watch-se-40mm-spacegray',
     namespaceId: 'apple-watch-se',
     name: 'Apple Watch SE 40mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '40mm',
     priceRegular: 279,
     priceDiscount: 259,
-    colorsAvailable: ['silver', 'space gray', 'gold'],
-    color: 'space gray',
+    colorsAvailable: ['silver', 'spacegray', 'gold'],
+    color: 'spacegray',
     images: [
-      'img/watches/se/space-gray/00.webp',
-      'img/watches/se/space-gray/01.webp',
-      'img/watches/se/space-gray/02.webp',
+      'img/watches/se/spacegray/00.webp',
+      'img/watches/se/spacegray/01.webp',
+      'img/watches/se/spacegray/02.webp',
     ],
     description: [
       {
@@ -1374,19 +1374,19 @@ export const watches: Watch[] = [
     cell: ['Wi-Fi', 'Bluetooth', 'LTE'],
   },
   {
-    id: 'apple-watch-se-44mm-space-gray',
+    id: 'apple-watch-se-44mm-spacegray',
     namespaceId: 'apple-watch-se',
     name: 'Apple Watch SE 44mm Space Gray',
     capacityAvailable: ['40mm', '44mm'],
     capacity: '44mm',
     priceRegular: 309,
     priceDiscount: 289,
-    colorsAvailable: ['silver', 'space gray', 'gold'],
-    color: 'space gray',
+    colorsAvailable: ['silver', 'spacegray', 'gold'],
+    color: 'spacegray',
     images: [
-      'img/watches/se/space-gray/00.webp',
-      'img/watches/se/space-gray/01.webp',
-      'img/watches/se/space-gray/02.webp',
+      'img/watches/se/spacegray/00.webp',
+      'img/watches/se/spacegray/01.webp',
+      'img/watches/se/spacegray/02.webp',
     ],
     description: [
       {

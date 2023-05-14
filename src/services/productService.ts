@@ -27,7 +27,7 @@ const normalize = (products: Product[]) => {
 };
 
 const getAll = async () => {
-  const allProducts = await Product.findAll({});
+  const allProducts = await Product.findAll();
 
   return allProducts;
 };
@@ -101,8 +101,8 @@ const getHot = async (limit: number) => {
   const productsWithoutDuplicates = filterDuplicateProducts(products);
 
   return productsWithoutDuplicates
-    .sort((a, b) => calculateSale(b) - calculateSale(a))
-    .slice(0, limit);
+    .sort((a, b) => calculateSale(b) - calculateSale(a));
+  // .slice(0, limit);
 };
 
 const getRecommended = async () => {

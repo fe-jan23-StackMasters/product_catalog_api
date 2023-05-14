@@ -13,9 +13,6 @@ export const getNameWithoutColorAndMemo = (id: string): string => {
 export const filterDuplicateProducts = (products: Product[]): Product[] => {
   const alreadyExists: string[] = [];
 
-  console.log('filtering');
-  console.log(products.length);
-
   const filtered = products.filter((product) => {
     const name = getNameWithoutColorAndMemo(product.itemId);
 
@@ -27,8 +24,6 @@ export const filterDuplicateProducts = (products: Product[]): Product[] => {
 
     return true;
   });
-
-  console.log(filtered.length);
 
   return filtered;
 };
