@@ -13,28 +13,28 @@ const syncDb = async () => {
 
   initDb();
 
-  await Product.sync({ alter: true }).catch((error) =>
+  await Product.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(products.map((product) => Product.create(product as any)))
     .then(() => console.log('Success'))
     .catch((error) => console.log(error.message));
 
-  await Phone.sync({ alter: true }).catch((error) =>
+  await Phone.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(phones.map((phone) => Phone.create(phone as any)))
     .then(() => console.log('Success'))
     .catch((error) => console.log(error.message));
 
-  await Tablet.sync({ alter: true }).catch((error) =>
+  await Tablet.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(tablets.map((tablet) => Tablet.create(tablet as any)))
     .then(() => console.log('Success'))
     .catch((error) => console.error(error.message));
 
-  await Watch.sync({ alter: true }).catch((error) =>
+  await Watch.sync({ force: true }).catch((error) =>
     console.log(error.message));
 
   Promise.all(watches.map((watch) => Watch.create(watch as any)))

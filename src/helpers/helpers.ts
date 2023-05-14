@@ -10,10 +10,13 @@ export const getNameWithoutColorAndMemo = (id: string): string => {
   return id.split('-').slice(0, -2).join('-');
 };
 
-export const filterDuplicatePhones = (products: Product[]): Product[] => {
+export const filterDuplicateProducts = (products: Product[]): Product[] => {
   const alreadyExists: string[] = [];
 
-  return products.filter((product) => {
+  console.log('filtering');
+  console.log(products.length);
+
+  const filtered = products.filter((product) => {
     const name = getNameWithoutColorAndMemo(product.itemId);
 
     if (alreadyExists.includes(name)) {
@@ -24,6 +27,10 @@ export const filterDuplicatePhones = (products: Product[]): Product[] => {
 
     return true;
   });
+
+  console.log(filtered.length);
+
+  return filtered;
 };
 
 export const getOrderParameter = (sortBy: SortBy): Order => {

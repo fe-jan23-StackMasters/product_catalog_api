@@ -1,7 +1,7 @@
 import Product from '../models/Product';
 import {
   calculateSale,
-  // filterDuplicatePhones,
+  filterDuplicateProducts,
   getOrderParameter,
 } from '../helpers/helpers';
 import { Category } from '../types/Category';
@@ -88,19 +88,19 @@ const getModelsNumber = async (category: Category[] | Category) => {
 const getNew = async (limit: number) => {
   const products = await Product.findAll({
     order: [['year', 'DESC']],
-    limit,
   });
 
-  return products;
+  const productsWithoutDuplicates = filterDuplicateProducts(products);
+
+  return productsWithoutDuplicates.slice(0, limit);
 };
 
 const getHot = async (limit: number) => {
   const products = await getAll();
 
-  // const productsWithoutDuplicates = filterDuplicatePhones(products);
-  // we have only 9 phones without duplicates
+  const productsWithoutDuplicates = filterDuplicateProducts(products);
 
-  return products
+  return productsWithoutDuplicates
     .sort((a, b) => calculateSale(b) - calculateSale(a))
     .slice(0, limit);
 };
@@ -110,9 +110,6 @@ const getRecommended = async () => {
     order: Sequelize.literal('random()'),
     limit: 12,
   });
-
-  // const productsWithoutDuplicates = filterDuplicatePhones(products);
-  // we have only 9 phones without duplicates
 
   return products;
 };
