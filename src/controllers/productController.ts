@@ -128,6 +128,30 @@ const getRecommended = async (req: Request, res: Response) => {
   res.send(productService.normalize(recommendations));
 };
 
+const getMinMax = async (req: Request, res: Response) => {
+  const { category } = req.query;
+
+  let prices: number[] = [];
+
+  switch (category) {
+    case Category.PHONE:
+      prices = await phoneService.getMinMax();
+      break;
+    case Category.TABLET:
+      prices = await tabletService.getMinMax();
+      break;
+    case Category.ACCESSORIES:
+      prices = await watchService.getMinMax();
+      break;
+    default:
+      res.status(400).send('No category found');
+
+      return;
+  }
+
+  res.send(prices);
+};
+
 export default {
   getAll,
   getOnPage,
@@ -135,4 +159,5 @@ export default {
   getHot,
   getOne,
   getRecommended,
+  getMinMax,
 };

@@ -6,4 +6,17 @@ const getOne = async (id: string) => {
   return phone;
 };
 
-export default { getOne };
+const getMinMax = async () => {
+  const [cheap] = await Phone.findAll({
+    order: [['priceDiscount', 'ASC']],
+    limit: 1,
+  });
+  const [expensive] = await Phone.findAll({
+    order: [['priceDiscount', 'DESC']],
+    limit: 1,
+  });
+
+  return [cheap.priceDiscount, expensive.priceDiscount];
+};
+
+export default { getOne, getMinMax };

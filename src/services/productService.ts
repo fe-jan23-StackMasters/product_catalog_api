@@ -100,10 +100,9 @@ const getHot = async (limit: number) => {
 
   const productsWithoutDuplicates = filterDuplicateProducts(products);
 
-  return productsWithoutDuplicates.sort(
-    (a, b) => calculateSale(b) - calculateSale(a),
-  );
-  // .slice(0, limit);
+  return productsWithoutDuplicates
+    .sort((a, b) => calculateSale(b) - calculateSale(a))
+    .slice(0, limit);
 };
 
 const getRecommended = async () => {
