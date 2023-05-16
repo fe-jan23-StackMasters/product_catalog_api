@@ -105,7 +105,17 @@ const getRecommended = async (req: Request, res: Response) => {
     return;
   }
 
-  const product = await phoneService.getOne(productId);
+  let product: Phone | Tablet | Watch | null = await phoneService.getOne(
+    productId,
+  );
+
+  if (!product) {
+    product = await tabletService.getOne(productId);
+  }
+
+  if (!product) {
+    product = await watchService.getOne(productId);
+  }
 
   if (!product) {
     res.sendStatus(404);
