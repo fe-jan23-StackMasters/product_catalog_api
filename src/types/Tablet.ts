@@ -1,4 +1,5 @@
 export interface Tablet {
+  productId: string;
   id: string;
   namespaceId: string;
   name: string;

@@ -5,7 +5,7 @@ const getBanners = async () => {
 
   const paths = fs
     .readdirSync(directoryPath)
-    .map(path => `img/banners/${path}`);
+    .map((path) => `img/banners/${path}`);
 
   return paths;
 };

@@ -4,14 +4,26 @@ import { Phone } from '../../types/Phone';
 
 export const phones: Phone[] = [
   {
+    productId: '38',
     id: 'apple-iphone-11-128gb-black',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-11/black/00.webp',
@@ -35,8 +47,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -48,18 +59,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '51',
     id: 'apple-iphone-11-128gb-green',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-11/green/00.webp',
@@ -83,8 +112,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -96,18 +124,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '22',
     id: 'apple-iphone-11-128gb-purple',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-11/purple/00.webp',
@@ -131,8 +177,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -144,18 +189,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '67',
     id: 'apple-iphone-11-128gb-red',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-11/red/00.webp',
@@ -179,8 +242,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -192,18 +254,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '52',
     id: 'apple-iphone-11-128gb-white',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-11/white/00.webp',
@@ -227,8 +307,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -240,18 +319,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '5',
     id: 'apple-iphone-11-128gb-yellow',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 128GB Yellow',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 1100,
     priceDiscount: 1050,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-11/yellow/00.webp',
@@ -275,8 +372,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -288,18 +384,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '53',
     id: 'apple-iphone-11-256gb-black',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-11/black/00.webp',
@@ -323,8 +437,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -336,18 +449,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '6',
     id: 'apple-iphone-11-256gb-green',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-11/green/00.webp',
@@ -371,8 +502,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -384,18 +514,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '62',
     id: 'apple-iphone-11-256gb-purple',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-11/purple/00.webp',
@@ -419,8 +567,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -432,18 +579,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '39',
     id: 'apple-iphone-11-256gb-red',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-11/red/00.webp',
@@ -467,8 +632,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -480,18 +644,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '54',
     id: 'apple-iphone-11-256gb-white',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-11/white/00.webp',
@@ -515,8 +697,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -528,18 +709,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '23',
     id: 'apple-iphone-11-256gb-yellow',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 256GB Yellow',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1172,
     priceDiscount: 1115,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-11/yellow/00.webp',
@@ -563,8 +762,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -576,18 +774,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '4',
     id: 'apple-iphone-11-64gb-black',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-11/black/00.webp',
@@ -611,8 +827,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -624,18 +839,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '21',
     id: 'apple-iphone-11-64gb-green',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-11/green/00.webp',
@@ -659,8 +892,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -672,18 +904,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '36',
     id: 'apple-iphone-11-64gb-purple',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-11/purple/00.webp',
@@ -707,8 +957,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -720,18 +969,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '37',
     id: 'apple-iphone-11-64gb-red',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-11/red/00.webp',
@@ -755,8 +1022,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -768,18 +1034,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '50',
     id: 'apple-iphone-11-64gb-white',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-11/white/00.webp',
@@ -803,8 +1087,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -816,18 +1099,36 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '64',
     id: 'apple-iphone-11-64gb-yellow',
     namespaceId: 'apple-iphone-11',
     name: 'Apple iPhone 11 64GB Yellow',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 932,
     priceDiscount: 880,
-    colorsAvailable: ['black', 'green', 'yellow', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'green',
+      'yellow',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-11/yellow/00.webp',
@@ -851,8 +1152,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -864,18 +1164,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '24',
     id: 'apple-iphone-11-pro-256gb-gold',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 256GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1640,
     priceDiscount: 1570,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro/gold/00.webp',
@@ -897,8 +1213,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -910,18 +1225,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '8',
     id: 'apple-iphone-11-pro-256gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 256GB Midnight green',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1640,
     priceDiscount: 1570,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro/midnightgreen/00.webp',
@@ -944,8 +1275,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -957,18 +1287,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '41',
     id: 'apple-iphone-11-pro-256gb-silver',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 256GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1640,
     priceDiscount: 1570,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro/silver/00.webp',
@@ -990,8 +1336,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1003,18 +1348,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '65',
     id: 'apple-iphone-11-pro-256gb-spacegray',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 256GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1640,
     priceDiscount: 1570,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro/spacegray/00.webp',
@@ -1036,8 +1397,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1049,18 +1409,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '42',
     id: 'apple-iphone-11-pro-512gb-gold',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 512GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1880,
     priceDiscount: 1780,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro/gold/00.webp',
@@ -1082,8 +1458,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1095,18 +1470,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '56',
     id: 'apple-iphone-11-pro-512gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 512GB Midnight green',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1880,
     priceDiscount: 1780,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro/midnightgreen/00.webp',
@@ -1129,8 +1520,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1142,18 +1532,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '9',
     id: 'apple-iphone-11-pro-512gb-silver',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 512GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1880,
     priceDiscount: 1780,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro/silver/00.webp',
@@ -1175,8 +1581,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1188,18 +1593,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '25',
     id: 'apple-iphone-11-pro-512gb-spacegray',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 512GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1880,
     priceDiscount: 1780,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro/spacegray/00.webp',
@@ -1221,8 +1642,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1234,18 +1654,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '7',
     id: 'apple-iphone-11-pro-64gb-gold',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 64GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1312,
     priceDiscount: 1270,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro/gold/00.webp',
@@ -1267,8 +1703,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1280,18 +1715,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '40',
     id: 'apple-iphone-11-pro-64gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 64GB Midnight green',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1312,
     priceDiscount: 1270,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro/midnightgreen/00.webp',
@@ -1314,8 +1765,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1327,18 +1777,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '70',
     id: 'apple-iphone-11-pro-64gb-silver',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 64GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1312,
     priceDiscount: 1270,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro/silver/00.webp',
@@ -1360,8 +1826,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1373,18 +1838,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '55',
     id: 'apple-iphone-11-pro-64gb-spacegray',
     namespaceId: 'apple-iphone-11-pro',
     name: 'Apple iPhone 11 Pro 64GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1312,
     priceDiscount: 1270,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro/spacegray/00.webp',
@@ -1406,8 +1887,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1419,18 +1899,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '11',
     id: 'apple-iphone-11-pro-max-256gb-gold',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 256GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1776,
     priceDiscount: 1680,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro-max/gold/00.webp',
@@ -1452,8 +1948,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1465,18 +1960,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '27',
     id: 'apple-iphone-11-pro-max-256gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 256GB Midnightgreen',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1776,
     priceDiscount: 1680,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro-max/midnightgreen/00.webp',
@@ -1498,8 +2009,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1511,18 +2021,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '58',
     id: 'apple-iphone-11-pro-max-256gb-silver',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 256GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1776,
     priceDiscount: 1680,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro-max/silver/00.webp',
@@ -1544,8 +2070,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1557,18 +2082,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '44',
     id: 'apple-iphone-11-pro-max-256gb-spacegray',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 256GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1776,
     priceDiscount: 1680,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro-max/spacegray/00.webp',
@@ -1590,8 +2131,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1603,18 +2143,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '63',
     id: 'apple-iphone-11-pro-max-512gb-gold',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 512GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 2020,
     priceDiscount: 1930,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro-max/gold/00.webp',
@@ -1636,8 +2192,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1649,18 +2204,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '59',
     id: 'apple-iphone-11-pro-max-512gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 512GB Midnightgreen',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 2020,
     priceDiscount: 1930,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro-max/midnightgreen/00.webp',
@@ -1682,8 +2253,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1695,18 +2265,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '28',
     id: 'apple-iphone-11-pro-max-512gb-silver',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 512GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 2020,
     priceDiscount: 1930,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro-max/silver/00.webp',
@@ -1728,8 +2314,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1741,18 +2326,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '12',
     id: 'apple-iphone-11-pro-max-512gb-spacegray',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 512GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 2020,
     priceDiscount: 1930,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro-max/spacegray/00.webp',
@@ -1774,8 +2375,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1787,18 +2387,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '57',
     id: 'apple-iphone-11-pro-max-64gb-gold',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 64GB Gold',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1480,
     priceDiscount: 1400,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-11-pro-max/gold/00.webp',
@@ -1820,8 +2436,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1833,18 +2448,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '43',
     id: 'apple-iphone-11-pro-max-64gb-midnightgreen',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 64GB Midnightgreen',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1480,
     priceDiscount: 1400,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'midnightgreen',
     images: [
       'img/phones/apple-iphone-11-pro-max/midnightgreen/00.webp',
@@ -1866,8 +2497,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1879,18 +2509,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '26',
     id: 'apple-iphone-11-pro-max-64gb-silver',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 64GB Silver',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1480,
     priceDiscount: 1400,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-11-pro-max/silver/00.webp',
@@ -1912,8 +2558,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1925,18 +2570,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '10',
     id: 'apple-iphone-11-pro-max-64gb-spacegray',
     namespaceId: 'apple-iphone-11-pro-max',
     name: 'Apple iPhone 11 Pro Max 64GB Spacegray',
-    capacityAvailable: ['64GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '64GB',
     priceRegular: 1480,
     priceDiscount: 1400,
-    colorsAvailable: ['spacegray', 'midnightgreen', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'midnightgreen',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-11-pro-max/spacegray/00.webp',
@@ -1958,8 +2619,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -1971,18 +2631,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '1',
     id: 'apple-iphone-7-32gb-black',
     namespaceId: 'apple-iphone-7',
     name: 'Apple iPhone 7 32GB Black',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 400,
     priceDiscount: 375,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-7/black/00.webp',
@@ -2006,8 +2680,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2019,18 +2692,32 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '18',
     id: 'apple-iphone-7-32gb-gold',
     namespaceId: 'apple-iphone-7',
     name: 'Apple iPhone 7 32GB Gold',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 400,
     priceDiscount: 375,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-7/gold/00.webp',
@@ -2054,8 +2741,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2067,18 +2753,32 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '35',
     id: 'apple-iphone-7-32gb-rosegold',
     namespaceId: 'apple-iphone-7',
     name: 'Apple iPhone 7 32GB Rosegold',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 400,
     priceDiscount: 375,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'rosegold',
     images: [
       'img/phones/apple-iphone-7/rosegold/00.webp',
@@ -2102,8 +2802,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2115,18 +2814,32 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '61',
     id: 'apple-iphone-7-32gb-silver',
     namespaceId: 'apple-iphone-7',
     name: 'Apple iPhone 7 32GB Silver',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 400,
     priceDiscount: 375,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-7/silver/00.webp',
@@ -2150,8 +2863,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2163,18 +2875,32 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '2',
     id: 'apple-iphone-7-plus-32gb-black',
     namespaceId: 'apple-iphone-7-plus',
     name: 'Apple iPhone 7 Plus 32GB Black',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 540,
     priceDiscount: 500,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-7-plus/black/00.webp',
@@ -2198,8 +2924,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2211,18 +2936,32 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '69',
     id: 'apple-iphone-7-plus-32gb-gold',
     namespaceId: 'apple-iphone-7-plus',
     name: 'Apple iPhone 7 Plus 32GB Gold',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 540,
     priceDiscount: 500,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-7-plus/gold/00.webp',
@@ -2246,8 +2985,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2259,18 +2997,32 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '49',
     id: 'apple-iphone-7-plus-32gb-rosegold',
     namespaceId: 'apple-iphone-7-plus',
     name: 'Apple iPhone 7 Plus 32GB Rosegold',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 540,
     priceDiscount: 500,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'rosegold',
     images: [
       'img/phones/apple-iphone-7-plus/rosegold/00.webp',
@@ -2294,8 +3046,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2307,18 +3058,32 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '19',
     id: 'apple-iphone-7-plus-32gb-silver',
     namespaceId: 'apple-iphone-7-plus',
     name: 'Apple iPhone 7 Plus 32GB Silver',
-    capacityAvailable: ['32GB'],
+    capacityAvailable: [
+      '32GB',
+    ],
     capacity: '32GB',
     priceRegular: 540,
     priceDiscount: 500,
-    colorsAvailable: ['black', 'rosegold', 'gold', 'silver'],
+    colorsAvailable: [
+      'black',
+      'rosegold',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-7-plus/silver/00.webp',
@@ -2342,8 +3107,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2355,18 +3119,31 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '3',
     id: 'apple-iphone-8-64gb-gold',
     namespaceId: 'apple-iphone-8',
     name: 'Apple iPhone 8 64GB Gold',
-    capacityAvailable: ['64GB'],
+    capacityAvailable: [
+      '64GB',
+    ],
     capacity: '64GB',
     priceRegular: 600,
     priceDiscount: 550,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-8/gold/00.webp',
@@ -2389,8 +3166,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2402,18 +3178,31 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '66',
     id: 'apple-iphone-8-64gb-silver',
     namespaceId: 'apple-iphone-8',
     name: 'Apple iPhone 8 64GB Silver',
-    capacityAvailable: ['64GB'],
+    capacityAvailable: [
+      '64GB',
+    ],
     capacity: '64GB',
     priceRegular: 600,
     priceDiscount: 550,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-8/silver/00.webp',
@@ -2436,8 +3225,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2449,18 +3237,31 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '20',
     id: 'apple-iphone-8-64gb-spacegray',
     namespaceId: 'apple-iphone-8',
     name: 'Apple iPhone 8 64GB Space Gray',
-    capacityAvailable: ['64GB'],
+    capacityAvailable: [
+      '64GB',
+    ],
     capacity: '64GB',
     priceRegular: 600,
     priceDiscount: 550,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-8/spacegray/00.webp',
@@ -2483,8 +3284,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2496,18 +3296,33 @@ export const phones: Phone[] = [
     ram: '2GB',
     camera: '12 Mp + 7 Mp',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '30',
     id: 'apple-iphone-xr-128gb-coral',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 128GB Coral',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '128GB',
     priceRegular: 880,
     priceDiscount: 815,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'coral',
     images: [
       'img/phones/apple-iphone-xr/coral/00.webp',
@@ -2531,8 +3346,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2544,18 +3358,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '46',
     id: 'apple-iphone-xr-128gb-red',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 128GB Red',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '128GB',
     priceRegular: 880,
     priceDiscount: 815,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-xr/red/00.webp',
@@ -2579,8 +3408,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2592,18 +3420,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '14',
     id: 'apple-iphone-xr-128gb-white',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 128GB White',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '128GB',
     priceRegular: 880,
     priceDiscount: 815,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-xr/white/00.webp',
@@ -2627,8 +3470,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2640,18 +3482,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '60',
     id: 'apple-iphone-xr-128gb-yellow',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 128GB Yellow',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '128GB',
     priceRegular: 880,
     priceDiscount: 815,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-xr/yellow/00.webp',
@@ -2675,8 +3532,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2688,18 +3544,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '45',
     id: 'apple-iphone-xr-64gb-coral',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 64GB Coral',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '64GB',
     priceRegular: 712,
     priceDiscount: 670,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'coral',
     images: [
       'img/phones/apple-iphone-xr/coral/00.webp',
@@ -2721,8 +3592,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2734,18 +3604,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '13',
     id: 'apple-iphone-xr-64gb-red',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 64GB Red',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '64GB',
     priceRegular: 712,
     priceDiscount: 670,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-xr/red/00.webp',
@@ -2769,8 +3654,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2782,18 +3666,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '29',
     id: 'apple-iphone-xr-64gb-white',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 64GB White',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '64GB',
     priceRegular: 712,
     priceDiscount: 670,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-xr/white/00.webp',
@@ -2817,8 +3716,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2830,18 +3728,33 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '71',
     id: 'apple-iphone-xr-64gb-yellow',
     namespaceId: 'apple-iphone-xr',
     name: 'Apple iPhone XR 64GB Yellow',
-    capacityAvailable: ['64GB', '128GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+    ],
     capacity: '64GB',
     priceRegular: 712,
     priceDiscount: 670,
-    colorsAvailable: ['white', 'yellow', 'red', 'coral'],
+    colorsAvailable: [
+      'white',
+      'yellow',
+      'red',
+      'coral',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-xr/yellow/00.webp',
@@ -2865,8 +3778,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2878,18 +3790,31 @@ export const phones: Phone[] = [
     ram: '3GB',
     camera: '12 Mp + 7 MP',
     zoom: 'Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '47',
     id: 'apple-iphone-xs-256gb-gold',
     namespaceId: 'apple-iphone-xs',
     name: 'Apple iPhone XS 256GB Gold',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 960,
     priceDiscount: 900,
-    colorsAvailable: ['spacegray', 'gold'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-xs/gold/00.webp',
@@ -2913,8 +3838,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2926,18 +3850,31 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '32',
     id: 'apple-iphone-xs-256gb-spacegray',
     namespaceId: 'apple-iphone-xs',
     name: 'Apple iPhone XS 256GB Spacegray',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 960,
     priceDiscount: 900,
-    colorsAvailable: ['spacegray', 'gold'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-xs/spacegray/00.webp',
@@ -2961,8 +3898,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -2974,18 +3910,31 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '31',
     id: 'apple-iphone-xs-64gb-gold',
     namespaceId: 'apple-iphone-xs',
     name: 'Apple iPhone XS 64GB Gold',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 760,
     priceDiscount: 720,
-    colorsAvailable: ['spacegray', 'gold'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-xs/gold/00.webp',
@@ -3009,8 +3958,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3022,18 +3970,31 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '15',
     id: 'apple-iphone-xs-64gb-spacegray',
     namespaceId: 'apple-iphone-xs',
     name: 'Apple iPhone XS 64GB Spacegray',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 760,
     priceDiscount: 720,
-    colorsAvailable: ['spacegray', 'gold'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-xs/spacegray/00.webp',
@@ -3057,8 +4018,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3070,18 +4030,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '34',
     id: 'apple-iphone-xs-max-256gb-gold',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 256GB Gold',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1080,
     priceDiscount: 1000,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-xs-max/gold/00.webp',
@@ -3105,8 +4079,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3118,18 +4091,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '17',
     id: 'apple-iphone-xs-max-256gb-silver',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 256GB Silver',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1080,
     priceDiscount: 1000,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-xs-max/silver/00.webp',
@@ -3153,8 +4140,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3166,18 +4152,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '68',
     id: 'apple-iphone-xs-max-256gb-spacegray',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 256GB Spacegray',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1080,
     priceDiscount: 1000,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-xs-max/spacegray/00.webp',
@@ -3201,8 +4201,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3214,18 +4213,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '16',
     id: 'apple-iphone-xs-max-64gb-gold',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 64GB Gold',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 960,
     priceDiscount: 900,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-xs-max/gold/00.webp',
@@ -3249,8 +4262,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3262,18 +4274,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '33',
     id: 'apple-iphone-xs-max-64gb-silver',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 64GB Silver',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 960,
     priceDiscount: 900,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'silver',
     images: [
       'img/phones/apple-iphone-xs-max/silver/00.webp',
@@ -3297,8 +4323,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3310,18 +4335,32 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
-
   {
+    productId: '48',
     id: 'apple-iphone-xs-max-64gb-spacegray',
     namespaceId: 'apple-iphone-xs-max',
     name: 'Apple iPhone XS Max 64GB Spacegray',
-    capacityAvailable: ['64GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 960,
     priceDiscount: 900,
-    colorsAvailable: ['spacegray', 'gold', 'silver'],
+    colorsAvailable: [
+      'spacegray',
+      'gold',
+      'silver',
+    ],
     color: 'spacegray',
     images: [
       'img/phones/apple-iphone-xs-max/spacegray/00.webp',
@@ -3345,8 +4384,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3358,17 +4396,33 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp + 7MP',
     zoom: 'Digital, 10x / Optical, 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '142',
     id: 'apple-iphone-14-128gb-midnight',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 128GB Midnight',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '128GB',
     priceRegular: 1056,
     priceDiscount: 980,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-14/midnight/00.webp',
@@ -3392,8 +4446,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3405,17 +4458,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '143',
     id: 'apple-iphone-14-256gb-midnight',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 256GB Midnight',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1200,
     priceDiscount: 1160,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-14/midnight/00.webp',
@@ -3439,8 +4509,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3452,17 +4521,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '144',
     id: 'apple-iphone-14-512gb-midnight',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 512GB Midnight',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1466,
     priceDiscount: 1378,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-14/midnight/00.webp',
@@ -3486,8 +4572,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3499,17 +4584,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '145',
     id: 'apple-iphone-14-128gb-yellow',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 128GB Yellow',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '128GB',
     priceRegular: 1056,
     priceDiscount: 980,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-14/yellow/00.webp',
@@ -3533,8 +4635,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3546,17 +4647,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '146',
     id: 'apple-iphone-14-256gb-yellow',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 256GB Yellow',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1200,
     priceDiscount: 1160,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-14/yellow/00.webp',
@@ -3580,8 +4698,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3593,17 +4710,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '147',
     id: 'apple-iphone-14-512gb-yellow',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 512GB Yellow',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1466,
     priceDiscount: 1378,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'yellow',
     images: [
       'img/phones/apple-iphone-14/yellow/00.webp',
@@ -3627,8 +4761,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3640,17 +4773,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '148',
     id: 'apple-iphone-14-128gb-purple',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 128GB Purple',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '128GB',
     priceRegular: 1056,
     priceDiscount: 980,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-14/purple/00.webp',
@@ -3674,8 +4824,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3687,17 +4836,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '149',
     id: 'apple-iphone-14-256gb-purple',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 256GB Purple',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '256GB',
     priceRegular: 1256,
     priceDiscount: 1180,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-14/purple/00.webp',
@@ -3721,8 +4887,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3734,17 +4899,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '150',
     id: 'apple-iphone-14-512gb-purple',
     namespaceId: 'apple-iphone-14',
     name: 'Apple iPhone 14 512GB Purple',
-    capacityAvailable: ['128GB', '256GB', '512GB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+    ],
     capacity: '512GB',
     priceRegular: 1600,
     priceDiscount: 1450,
-    colorsAvailable: ['midnight', 'yellow', 'purple'],
+    colorsAvailable: [
+      'midnight',
+      'yellow',
+      'purple',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-14/purple/00.webp',
@@ -3768,8 +4950,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3781,17 +4962,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '151',
     id: 'apple-iphone-14-pro-128gb-spaceblack',
     namespaceId: 'apple-iphone-14-pro',
     name: 'Apple iPhone 14 Pro 128GB Space Black',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '128GB',
     priceRegular: 1056,
     priceDiscount: 980,
-    colorsAvailable: ['spaceblack', 'gold'],
+    colorsAvailable: [
+      'spaceblack',
+      'gold',
+    ],
     color: 'spaceblack',
     images: [
       'img/phones/apple-iphone-14-pro/spaceblack/00.webp',
@@ -3815,8 +5013,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3828,17 +5025,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '152',
     id: 'apple-iphone-14-pro-256gb-spaceblack',
     namespaceId: 'apple-iphone-14-pro',
     name: 'Apple iPhone 14 Pro 256GB Space Black',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '256GB',
     priceRegular: 1200,
     priceDiscount: 1160,
-    colorsAvailable: ['spaceblack', 'gold'],
+    colorsAvailable: [
+      'spaceblack',
+      'gold',
+    ],
     color: 'spaceblack',
     images: [
       'img/phones/apple-iphone-14-pro/spaceblack/00.webp',
@@ -3862,8 +5076,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3875,17 +5088,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '153',
     id: 'apple-iphone-14-pro-512gb-spaceblack',
     namespaceId: 'apple-iphone-14-pro',
     name: 'Apple iPhone 14 Pro 512GB Space Black',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '512GB',
     priceRegular: 1466,
     priceDiscount: 1378,
-    colorsAvailable: ['spaceblack', 'gold'],
+    colorsAvailable: [
+      'spaceblack',
+      'gold',
+    ],
     color: 'spaceblack',
     images: [
       'img/phones/apple-iphone-14-pro/spaceblack/00.webp',
@@ -3909,8 +5139,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3922,17 +5151,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12MP',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '154',
     id: 'apple-iphone-14-pro-1tb-spaceblack',
     namespaceId: 'apple-iphone-14-pro',
     name: 'Apple iPhone 14 Pro 1TB Space Black',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '1TB',
     priceRegular: 1740,
     priceDiscount: 1520,
-    colorsAvailable: ['spaceblack', 'gold'],
+    colorsAvailable: [
+      'spaceblack',
+      'gold',
+    ],
     color: 'spaceblack',
     images: [
       'img/phones/apple-iphone-14-pro/spaceblack/00.webp',
@@ -3956,8 +5202,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -3969,17 +5214,35 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '48 Mp + 12 Mp + 12MP + 12Mp',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '155',
     id: 'apple-iphone-12-64gb-black',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 64GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-12/black/00.webp',
@@ -4013,17 +5276,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '156',
     id: 'apple-iphone-12-128gb-black',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 128GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-12/black/00.webp',
@@ -4057,17 +5337,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '157',
     id: 'apple-iphone-12-256gb-black',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 256GB Black',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'black',
     images: [
       'img/phones/apple-iphone-12/black/00.webp',
@@ -4101,17 +5398,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '158',
     id: 'apple-iphone-12-64gb-purple',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 64GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-12/purple/00.webp',
@@ -4145,17 +5459,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '159',
     id: 'apple-iphone-12-128gb-purple',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 128GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-12/purple/00.webp',
@@ -4189,17 +5520,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '160',
     id: 'apple-iphone-12-256gb-purple',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 256GB Purple',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'purple',
     images: [
       'img/phones/apple-iphone-12/purple/00.webp',
@@ -4233,17 +5581,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '161',
     id: 'apple-iphone-12-64gb-red',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 64GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-12/red/00.webp',
@@ -4277,17 +5642,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '162',
     id: 'apple-iphone-12-128gb-red',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 128GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-12/red/00.webp',
@@ -4321,17 +5703,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '163',
     id: 'apple-iphone-12-256gb-red',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 256GB Red',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'red',
     images: [
       'img/phones/apple-iphone-12/red/00.webp',
@@ -4365,17 +5764,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '164',
     id: 'apple-iphone-12-64gb-white',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 64GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-12/white/00.webp',
@@ -4409,17 +5825,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '165',
     id: 'apple-iphone-12-128gb-white',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 128GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-12/white/00.webp',
@@ -4453,17 +5886,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '166',
     id: 'apple-iphone-12-256gb-white',
     namespaceId: 'apple-iphone-12',
     name: 'Apple iPhone 12 256GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['black', 'white', 'purple', 'red'],
+    colorsAvailable: [
+      'black',
+      'white',
+      'purple',
+      'red',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-12/white/00.webp',
@@ -4497,17 +5947,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+    ],
   },
   {
+    productId: '167',
     id: 'apple-iphone-13-mini-64gb-midnight',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 64GB Midnight',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-13-mini/midnight/00.webp',
@@ -4541,17 +6009,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '168',
     id: 'apple-iphone-13-mini-128gb-midnight',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 128GB Midnight',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-13-mini/midnight/00.webp',
@@ -4585,17 +6071,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '169',
     id: 'apple-iphone-13-mini-256gb-midnight',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 256GB Midnight',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'midnight',
     images: [
       'img/phones/apple-iphone-13-mini/midnight/00.webp',
@@ -4629,17 +6133,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '170',
     id: 'apple-iphone-13-mini-64gb-green',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 64GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-13-mini/green/00.webp',
@@ -4673,17 +6195,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '171',
     id: 'apple-iphone-13-mini-128gb-green',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 128GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-13-mini/green/00.webp',
@@ -4717,17 +6257,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '172',
     id: 'apple-iphone-13-mini-256gb-green',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 256GB Green',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'green',
     images: [
       'img/phones/apple-iphone-13-mini/green/00.webp',
@@ -4761,17 +6319,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '173',
     id: 'apple-iphone-13-mini-64gb-pink',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 64GB Pink',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'pink',
     images: [
       'img/phones/apple-iphone-13-mini/pink/00.webp',
@@ -4805,17 +6381,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '174',
     id: 'apple-iphone-13-mini-128gb-pink',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 128GB Pink',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'pink',
     images: [
       'img/phones/apple-iphone-13-mini/pink/00.webp',
@@ -4849,17 +6443,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '175',
     id: 'apple-iphone-13-mini-256gb-pink',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 256GB Pink',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 1180,
     priceDiscount: 1100,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'pink',
     images: [
       'img/phones/apple-iphone-13-mini/pink/00.webp',
@@ -4893,17 +6505,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '176',
     id: 'apple-iphone-13-mini-64gb-white',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 64GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-13-mini/white/00.webp',
@@ -4937,17 +6567,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '177',
     id: 'apple-iphone-13-mini-128gb-white',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 128GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-13-mini/white/00.webp',
@@ -4981,17 +6629,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '178',
     id: 'apple-iphone-13-mini-256gb-white',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 256GB White',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 999,
     priceDiscount: 949,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'white',
     images: [
       'img/phones/apple-iphone-13-mini/white/00.webp',
@@ -5025,17 +6691,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '179',
     id: 'apple-iphone-13-mini-64gb-blue',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 64GB Blue',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '64GB',
     priceRegular: 880,
     priceDiscount: 800,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'blue',
     images: [
       'img/phones/apple-iphone-13-mini/blue/00.webp',
@@ -5069,17 +6753,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '180',
     id: 'apple-iphone-13-mini-128gb-blue',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 128GB Blue',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '128GB',
     priceRegular: 980,
     priceDiscount: 900,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'blue',
     images: [
       'img/phones/apple-iphone-13-mini/blue/00.webp',
@@ -5113,17 +6815,35 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '181',
     id: 'apple-iphone-13-mini-256gb-blue',
     namespaceId: 'apple-iphone-13-mini',
     name: 'Apple iPhone 13 Mini 256GB Blue',
-    capacityAvailable: ['64GB', '128GB', '256GB'],
+    capacityAvailable: [
+      '64GB',
+      '128GB',
+      '256GB',
+    ],
     capacity: '256GB',
     priceRegular: 999,
     priceDiscount: 949,
-    colorsAvailable: ['midnight', 'green', 'white', 'blue', 'pink'],
+    colorsAvailable: [
+      'midnight',
+      'green',
+      'white',
+      'blue',
+      'pink',
+    ],
     color: 'blue',
     images: [
       'img/phones/apple-iphone-13-mini/blue/00.webp',
@@ -5157,17 +6877,34 @@ export const phones: Phone[] = [
     ram: '4GB',
     camera: '12 Mp + 12 Mp',
     zoom: 'Optical, 2x; Digital, 5x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '182',
     id: 'apple-iphone-13-pro-max-128gb-sierrablue',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 128GB Sierra Blue',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '128GB',
     priceRegular: 1286,
     priceDiscount: 1260,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'sierrablue',
     images: [
       'img/phones/apple-iphone-13-pro-max/sierrablue/00.webp',
@@ -5207,17 +6944,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '183',
     id: 'apple-iphone-13-pro-max-256gb-sierrablue',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 256GB Sierra Blue',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '256GB',
     priceRegular: 1399,
     priceDiscount: 1379,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'sierrablue',
     images: [
       'img/phones/apple-iphone-13-pro-max/sierrablue/00.webp',
@@ -5257,17 +7011,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '184',
     id: 'apple-iphone-13-pro-max-512gb-sierrablue',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 512GB Sierra Blue',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '512GB',
     priceRegular: 1426,
     priceDiscount: 1371,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'sierrablue',
     images: [
       'img/phones/apple-iphone-13-pro-max/sierrablue/00.webp',
@@ -5307,17 +7078,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '185',
     id: 'apple-iphone-13-pro-max-1tb-sierrablue',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 1TB Sierra Blue',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '1TB',
     priceRegular: 1700,
     priceDiscount: 1540,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'sierrablue',
     images: [
       'img/phones/apple-iphone-13-pro-max/sierrablue/00.webp',
@@ -5340,8 +7128,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -5353,17 +7140,35 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '48 Mp + 12 Mp + 12MP + 12Mp',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '186',
     id: 'apple-iphone-13-pro-max-128gb-graphite',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 128GB Graphite',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '128GB',
     priceRegular: 1286,
     priceDiscount: 1260,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'graphite',
     images: [
       'img/phones/apple-iphone-13-pro-max/graphite/00.webp',
@@ -5403,17 +7208,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '187',
     id: 'apple-iphone-13-pro-max-256gb-graphite',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 256GB Graphite',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '256GB',
     priceRegular: 1399,
     priceDiscount: 1379,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'graphite',
     images: [
       'img/phones/apple-iphone-13-pro-max/graphite/00.webp',
@@ -5453,17 +7275,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '188',
     id: 'apple-iphone-13-pro-max-512gb-graphite',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 512GB Graphite',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '512GB',
     priceRegular: 1426,
     priceDiscount: 1371,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'graphite',
     images: [
       'img/phones/apple-iphone-13-pro-max/graphite/00.webp',
@@ -5503,17 +7342,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '189',
     id: 'apple-iphone-13-pro-max-1tb-graphite',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 1TB Graphite',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '1TB',
     priceRegular: 1700,
     priceDiscount: 1540,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'graphite',
     images: [
       'img/phones/apple-iphone-13-pro-max/graphite/00.webp',
@@ -5536,8 +7392,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -5549,17 +7404,35 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '48 Mp + 12 Mp + 12MP + 12Mp',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '190',
     id: 'apple-iphone-13-pro-max-128gb-gold',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 128GB Gold',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '128GB',
     priceRegular: 1286,
     priceDiscount: 1260,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-13-pro-max/gold/00.webp',
@@ -5599,17 +7472,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '191',
     id: 'apple-iphone-13-pro-max-256gb-gold',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 256GB Gold',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '256GB',
     priceRegular: 1399,
     priceDiscount: 1379,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-13-pro-max/gold/00.webp',
@@ -5649,17 +7539,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '192',
     id: 'apple-iphone-13-pro-max-512gb-gold',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 512GB Gold',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '512GB',
     priceRegular: 1426,
     priceDiscount: 1371,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-13-pro-max/gold/00.webp',
@@ -5699,17 +7606,34 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '12 Mp + 12 Mp + 12 Mp',
     zoom: 'Optical, 3x; Digital, up to 15x',
-    cell: ['GSM', 'CDMA', 'HSPA', 'EVDO', 'LTE', '5G'],
+    cell: [
+      'GSM',
+      'CDMA',
+      'HSPA',
+      'EVDO',
+      'LTE',
+      '5G',
+    ],
   },
   {
+    productId: '193',
     id: 'apple-iphone-13-pro-max-1tb-gold',
     namespaceId: 'apple-iphone-13-pro-max',
     name: 'Apple iPhone 13 Pro Max 1TB Gold',
-    capacityAvailable: ['128GB', '256GB', '512GB', '1TB'],
+    capacityAvailable: [
+      '128GB',
+      '256GB',
+      '512GB',
+      '1TB',
+    ],
     capacity: '1TB',
     priceRegular: 1700,
     priceDiscount: 1540,
-    colorsAvailable: ['graphite', 'gold', 'sierrablue'],
+    colorsAvailable: [
+      'graphite',
+      'gold',
+      'sierrablue',
+    ],
     color: 'gold',
     images: [
       'img/phones/apple-iphone-13-pro-max/gold/00.webp',
@@ -5732,8 +7656,7 @@ export const phones: Phone[] = [
         ],
       },
       {
-        title:
-          'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
+        title: 'Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.',
         text: [
           'iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with.',
         ],
@@ -5745,6 +7668,14 @@ export const phones: Phone[] = [
     ram: '6GB',
     camera: '48 Mp + 12 Mp + 12MP + 12Mp',
     zoom: 'Digital 5x, Optical 2x',
-    cell: ['GPRS', 'EDGE', 'WCDMA', 'UMTS', 'HSPA', 'LTE', '5G'],
+    cell: [
+      'GPRS',
+      'EDGE',
+      'WCDMA',
+      'UMTS',
+      'HSPA',
+      'LTE',
+      '5G',
+    ],
   },
 ];

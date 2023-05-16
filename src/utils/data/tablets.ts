@@ -3,6 +3,7 @@ import { Tablet } from '../../types/Tablet';
 /* eslint-disable max-len */
 export const tablets: Tablet[] = [
   {
+    productId: '106',
     id: 'apple-ipad-pro-11-2021-128gb-spacegray',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 128GB Space Gray',
@@ -22,9 +23,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.webp',
     ],
     description: [
       {
@@ -60,6 +61,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '107',
     id: 'apple-ipad-pro-11-2021-256gb-spacegray',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 256GB Space Gray',
@@ -79,9 +81,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.webp',
     ],
     description: [
       {
@@ -117,6 +119,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '108',
     id: 'apple-ipad-pro-11-2021-512gb-spacegray',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 512GB Space Gray',
@@ -136,9 +139,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.webp',
     ],
     description: [
       {
@@ -174,6 +177,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '109',
     id: 'apple-ipad-pro-11-2021-1tb-spacegray',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 1TB Space Gray',
@@ -193,9 +197,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.webp',
     ],
     description: [
       {
@@ -231,6 +235,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '110',
     id: 'apple-ipad-pro-11-2021-2tb-spacegray',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 2TB Space Gray',
@@ -250,9 +255,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/spacegray/02.webp',
     ],
     description: [
       {
@@ -288,6 +293,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '111',
     id: 'apple-ipad-pro-11-2021-128gb-silver',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 128GB Silver',
@@ -307,9 +313,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/silver/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/silver/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/02.webp',
     ],
     description: [
       {
@@ -345,6 +351,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '112',
     id: 'apple-ipad-pro-11-2021-256gb-silver',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 256GB Silver',
@@ -364,9 +371,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/silver/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/silver/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/02.webp',
     ],
     description: [
       {
@@ -402,6 +409,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '113',
     id: 'apple-ipad-pro-11-2021-512gb-silver',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 512GB Silver',
@@ -421,9 +429,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/silver/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/silver/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/02.webp',
     ],
     description: [
       {
@@ -459,6 +467,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '114',
     id: 'apple-ipad-pro-11-2021-1tb-silver',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 1TB Silver',
@@ -478,9 +487,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/silver/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/silver/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/02.webp',
     ],
     description: [
       {
@@ -516,6 +525,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '115',
     id: 'apple-ipad-pro-11-2021-2tb-silver',
     namespaceId: 'apple-ipad-pro-11-2021',
     name: 'Apple iPad Pro 11 (2021) 2TB Silver',
@@ -535,9 +545,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-pro-11-2021/silver/00.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/01.jpg',
-      'img/tablets/apple-ipad-pro-11-2021/silver/02.jpg',
+      'img/tablets/apple-ipad-pro-11-2021/silver/00.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/01.webp',
+      'img/tablets/apple-ipad-pro-11-2021/silver/02.webp',
     ],
     description: [
       {
@@ -573,6 +583,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '116',
     id: 'apple-ipad-air-4th-gen-256gb-rose-gold',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 256GB Rose Gold',
@@ -591,10 +602,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'rose gold',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/03.webp',
     ],
     description: [
       {
@@ -630,6 +641,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '117',
     id: 'apple-ipad-air-4th-gen-64gb-rose-gold',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 64GB Rose Gold',
@@ -648,10 +660,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'rose gold',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/rose-gold/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/rose-gold/03.webp',
     ],
     description: [
       {
@@ -687,6 +699,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '118',
     id: 'apple-ipad-air-4th-gen-64gb-silver',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 64GB Silver',
@@ -705,10 +718,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/silver/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/silver/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/03.webp',
     ],
     description: [
       {
@@ -744,6 +757,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '119',
     id: 'apple-ipad-air-4th-gen-256gb-silver',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 256GB Silver',
@@ -762,10 +776,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/silver/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/silver/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/silver/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/silver/03.webp',
     ],
     description: [
       {
@@ -801,6 +815,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '120',
     id: 'apple-ipad-air-4th-gen-256gb-green',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 256GB Green',
@@ -819,10 +834,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'green',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/green/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/green/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/03.webp',
     ],
     description: [
       {
@@ -858,6 +873,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '121',
     id: 'apple-ipad-air-4th-gen-64gb-green',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 64GB Green',
@@ -876,10 +892,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'green',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/green/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/green/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/green/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/green/03.webp',
     ],
     description: [
       {
@@ -915,6 +931,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '122',
     id: 'apple-ipad-air-4th-gen-64gb-sky-blue',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 64GB Sky Blue',
@@ -933,10 +950,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'sky blue',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/03.webp',
     ],
     description: [
       {
@@ -972,6 +989,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '123',
     id: 'apple-ipad-air-4th-gen-256gb-sky-blue',
     namespaceId: 'apple-ipad-air-4th-gen',
     name: 'Apple iPad Air (4th Gen) 256GB Sky Blue',
@@ -990,10 +1008,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'sky blue',
     images: [
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/00.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/01.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/02.jpg',
-      'img/tablets/apple-ipad-air-4th-gen/sky-blue/03.jpg',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/01.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/02.webp',
+      'img/tablets/apple-ipad-air-4th-gen/sky-blue/03.webp',
     ],
     description: [
       {
@@ -1029,6 +1047,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '124',
     id: 'apple-ipad-mini-6th-gen-64gb-spacegray',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 64GB Space Gray',
@@ -1046,9 +1065,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/02.webp',
     ],
     description: [
       {
@@ -1084,6 +1103,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '125',
     id: 'apple-ipad-mini-6th-gen-256gb-spacegray',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 256GB Space Gray',
@@ -1101,9 +1121,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/spacegray/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/spacegray/02.webp',
     ],
     description: [
       {
@@ -1139,6 +1159,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '126',
     id: 'apple-ipad-mini-6th-gen-256gb-starlight',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 256GB Starlight',
@@ -1156,9 +1177,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'starlight',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/02.webp',
     ],
     description: [
       {
@@ -1194,6 +1215,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '127',
     id: 'apple-ipad-mini-6th-gen-64gb-starlight',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 64GB Starlight',
@@ -1211,9 +1233,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'starlight',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/starlight/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/starlight/02.webp',
     ],
     description: [
       {
@@ -1249,6 +1271,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '128',
     id: 'apple-ipad-mini-6th-gen-64gb-pink',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 64GB Pink',
@@ -1266,9 +1289,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'pink',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/pink/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/pink/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/pink/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/02.webp',
     ],
     description: [
       {
@@ -1304,6 +1327,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '129',
     id: 'apple-ipad-mini-6th-gen-256gb-pink',
     namespaceId: 'apple-ipad-mini-6th-gen',
     name: 'Apple iPad Mini (6th Gen) 256GB Pink',
@@ -1321,9 +1345,9 @@ export const tablets: Tablet[] = [
     ],
     color: 'pink',
     images: [
-      'img/tablets/apple-ipad-mini-6th-gen/pink/00.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/pink/01.jpg',
-      'img/tablets/apple-ipad-mini-6th-gen/pink/02.jpg',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/00.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/01.webp',
+      'img/tablets/apple-ipad-mini-6th-gen/pink/02.webp',
     ],
     description: [
       {
@@ -1359,6 +1383,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '130',
     id: 'apple-ipad-10-2-2020-128gb-gold',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 128GB Gold',
@@ -1376,10 +1401,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'gold',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/gold/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/gold/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/03.webp',
     ],
     description: [
       {
@@ -1415,6 +1440,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '131',
     id: 'apple-ipad-10-2-2020-32gb-gold',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 32GB Gold',
@@ -1432,10 +1458,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'gold',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/gold/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/gold/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/gold/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/gold/03.webp',
     ],
     description: [
       {
@@ -1471,6 +1497,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '132',
     id: 'apple-ipad-10-2-2020-32gb-silver',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 32GB Silver',
@@ -1488,10 +1515,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/silver/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/silver/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/03.webp',
     ],
     description: [
       {
@@ -1527,6 +1554,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '133',
     id: 'apple-ipad-10-2-2020-128gb-silver',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 128GB Silver',
@@ -1544,10 +1572,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/silver/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/silver/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/silver/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/silver/03.webp',
     ],
     description: [
       {
@@ -1583,6 +1611,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '134',
     id: 'apple-ipad-10-2-2020-128gb-spacegray',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 128GB Space Gray',
@@ -1600,10 +1629,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/spacegray/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/03.webp',
     ],
     description: [
       {
@@ -1639,6 +1668,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '135',
     id: 'apple-ipad-10-2-2020-32gb-spacegray',
     namespaceId: 'apple-ipad-10-2-2020',
     name: 'Apple iPad 10.2 (2020) 32GB Space Gray',
@@ -1656,10 +1686,10 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-10-2-2020/spacegray/00.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/01.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/02.jpg',
-      'img/tablets/apple-ipad-10-2-2020/spacegray/03.jpg',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/00.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/01.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/02.webp',
+      'img/tablets/apple-ipad-10-2-2020/spacegray/03.webp',
     ],
     description: [
       {
@@ -1695,6 +1725,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '136',
     id: 'apple-ipad-mini-5th-gen-256gb-silver',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 256GB Silver',
@@ -1712,8 +1743,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/silver/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/silver/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/silver/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/silver/01.webp',
     ],
     description: [
       {
@@ -1749,6 +1780,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '137',
     id: 'apple-ipad-mini-5th-gen-64gb-silver',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 64GB Silver',
@@ -1766,8 +1798,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'silver',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/silver/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/silver/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/silver/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/silver/01.webp',
     ],
     description: [
       {
@@ -1803,6 +1835,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '138',
     id: 'apple-ipad-mini-5th-gen-64gb-spacegray',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 64GB Space Gray',
@@ -1820,8 +1853,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/spacegray/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/spacegray/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/spacegray/01.webp',
     ],
     description: [
       {
@@ -1857,6 +1890,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '139',
     id: 'apple-ipad-mini-5th-gen-256gb-spacegray',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 256GB Space Gray',
@@ -1874,8 +1908,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'spacegray',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/spacegray/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/spacegray/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/spacegray/01.webp',
     ],
     description: [
       {
@@ -1911,6 +1945,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '140',
     id: 'apple-ipad-mini-5th-gen-256gb-gold',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 256GB Gold',
@@ -1928,8 +1963,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'gold',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/gold/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/gold/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/gold/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/gold/01.webp',
     ],
     description: [
       {
@@ -1965,6 +2000,7 @@ export const tablets: Tablet[] = [
     ],
   },
   {
+    productId: '141',
     id: 'apple-ipad-mini-5th-gen-64gb-gold',
     namespaceId: 'apple-ipad-mini-5th-gen',
     name: 'Apple iPad Mini (5th Gen) 64GB Gold',
@@ -1982,8 +2018,8 @@ export const tablets: Tablet[] = [
     ],
     color: 'gold',
     images: [
-      'img/tablets/apple-ipad-mini-5th-gen/gold/00.jpg',
-      'img/tablets/apple-ipad-mini-5th-gen/gold/01.jpg',
+      'img/tablets/apple-ipad-mini-5th-gen/gold/00.webp',
+      'img/tablets/apple-ipad-mini-5th-gen/gold/01.webp',
     ],
     description: [
       {

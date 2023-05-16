@@ -75,8 +75,9 @@ const getOne = async (req: Request, res: Response) => {
     return;
   }
 
-  let product: Phone | Tablet | Watch | null
-    = await phoneService.getOne(productId);
+  let product: Phone | Tablet | Watch | null = await phoneService.getOne(
+    productId,
+  );
 
   if (!product) {
     product = await tabletService.getOne(productId);

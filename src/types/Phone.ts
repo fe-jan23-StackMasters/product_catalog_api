@@ -1,4 +1,5 @@
 export interface Phone {
+  productId: string;
   id: string;
   namespaceId: string;
   name: string;

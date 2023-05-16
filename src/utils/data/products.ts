@@ -1068,7 +1068,7 @@ export const products: Product[] = [
   },
   {
     id: '72',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-38mm-spacegray',
     itemId: 'apple-watch-series-3-38mm-spacegray',
     name: 'Apple Watch Series 3 38mm Space Gray',
@@ -1083,7 +1083,7 @@ export const products: Product[] = [
   },
   {
     id: '73',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-42mm-spacegray',
     itemId: 'apple-watch-series-3-42mm-spacegray',
     name: 'Apple Watch Series 3 42mm Space Gray',
@@ -1098,7 +1098,7 @@ export const products: Product[] = [
   },
   {
     id: '74',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-38mm-gold',
     itemId: 'apple-watch-series-3-38mm-gold',
     name: 'Apple Watch Series 3 38mm Gold',
@@ -1113,7 +1113,7 @@ export const products: Product[] = [
   },
   {
     id: '75',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-42mm-gold',
     itemId: 'apple-watch-series-3-42mm-gold',
     name: 'Apple Watch Series 3 42mm Gold',
@@ -1128,7 +1128,7 @@ export const products: Product[] = [
   },
   {
     id: '76',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-38mm-silver',
     itemId: 'apple-watch-series-3-38mm-silver',
     name: 'Apple Watch Series 3 38mm Silver',
@@ -1143,7 +1143,7 @@ export const products: Product[] = [
   },
   {
     id: '77',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-3-42mm-silver',
     itemId: 'apple-watch-series-3-42mm-silver',
     name: 'Apple Watch Series 3 42mm Silver',
@@ -1158,7 +1158,7 @@ export const products: Product[] = [
   },
   {
     id: '78',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-40mm-spacegray',
     itemId: 'apple-watch-series-6-40mm-spacegray',
     name: 'Apple Watch Series 6 40mm Space Gray',
@@ -1173,7 +1173,7 @@ export const products: Product[] = [
   },
   {
     id: '79',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-44mm-spacegray',
     itemId: 'apple-watch-series-6-44mm-spacegray',
     name: 'Apple Watch Series 6 44mm Space Gray',
@@ -1188,7 +1188,7 @@ export const products: Product[] = [
   },
   {
     id: '80',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-40mm-silver',
     itemId: 'apple-watch-series-6-40mm-silver',
     name: 'Apple Watch Series 6 40mm Silver',
@@ -1203,7 +1203,7 @@ export const products: Product[] = [
   },
   {
     id: '81',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-44mm-silver',
     itemId: 'apple-watch-series-6-44mm-silver',
     name: 'Apple Watch Series 6 44mm Silver',
@@ -1218,7 +1218,7 @@ export const products: Product[] = [
   },
   {
     id: '82',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-40mm-gold',
     itemId: 'apple-watch-series-6-40mm-gold',
     name: 'Apple Watch Series 6 40mm Gold',
@@ -1233,7 +1233,7 @@ export const products: Product[] = [
   },
   {
     id: '83',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-44mm-gold',
     itemId: 'apple-watch-series-6-44mm-gold',
     name: 'Apple Watch Series 6 44mm Gold',
@@ -1248,7 +1248,7 @@ export const products: Product[] = [
   },
   {
     id: '84',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-40mm-blue',
     itemId: 'apple-watch-series-6-40mm-blue',
     name: 'Apple Watch Series 6 40mm Blue',
@@ -1263,7 +1263,7 @@ export const products: Product[] = [
   },
   {
     id: '85',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-44mm-blue',
     itemId: 'apple-watch-series-6-44mm-blue',
     name: 'Apple Watch Series 6 44mm Blue',
@@ -1278,7 +1278,7 @@ export const products: Product[] = [
   },
   {
     id: '86',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-40mm-red',
     itemId: 'apple-watch-series-6-40mm-red',
     name: 'Apple Watch Series 6 40mm Red',
@@ -1293,7 +1293,7 @@ export const products: Product[] = [
   },
   {
     id: '87',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-6-44mm-red',
     itemId: 'apple-watch-series-6-44mm-red',
     name: 'Apple Watch Series 6 44mm Red',
@@ -1308,7 +1308,7 @@ export const products: Product[] = [
   },
   {
     id: '88',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-40mm-silver',
     itemId: 'apple-watch-series-5-40mm-silver',
     name: 'Apple Watch Series 5 40mm Silver',
@@ -1323,7 +1323,7 @@ export const products: Product[] = [
   },
   {
     id: '89',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-44mm-silver',
     itemId: 'apple-watch-series-5-44mm-silver',
     name: 'Apple Watch Series 5 44mm Silver',
@@ -1338,7 +1338,7 @@ export const products: Product[] = [
   },
   {
     id: '90',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-40mm-gold',
     itemId: 'apple-watch-series-5-40mm-gold',
     name: 'Apple Watch Series 5 40mm Gold',
@@ -1353,7 +1353,7 @@ export const products: Product[] = [
   },
   {
     id: '91',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-44mm-gold',
     itemId: 'apple-watch-series-5-44mm-gold',
     name: 'Apple Watch Series 5 44mm Gold',
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
   },
   {
     id: '92',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-40mm-spacegray',
     itemId: 'apple-watch-series-5-40mm-spacegray',
     name: 'Apple Watch Series 5 40mm Space Gray',
@@ -1383,7 +1383,7 @@ export const products: Product[] = [
   },
   {
     id: '93',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-5-44mm-spacegray',
     itemId: 'apple-watch-series-5-44mm-spacegray',
     name: 'Apple Watch Series 5 44mm Space Gray',
@@ -1398,7 +1398,7 @@ export const products: Product[] = [
   },
   {
     id: '94',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-40mm-silver',
     itemId: 'apple-watch-series-4-40mm-silver',
     name: 'Apple Watch Series 4 40mm Silver',
@@ -1413,7 +1413,7 @@ export const products: Product[] = [
   },
   {
     id: '95',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-44mm-silver',
     itemId: 'apple-watch-series-4-44mm-silver',
     name: 'Apple Watch Series 4 44mm Silver',
@@ -1428,7 +1428,7 @@ export const products: Product[] = [
   },
   {
     id: '96',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-40mm-gold',
     itemId: 'apple-watch-series-4-40mm-gold',
     name: 'Apple Watch Series 4 40mm Gold',
@@ -1443,7 +1443,7 @@ export const products: Product[] = [
   },
   {
     id: '97',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-44mm-gold',
     itemId: 'apple-watch-series-4-44mm-gold',
     name: 'Apple Watch Series 4 44mm Gold',
@@ -1458,7 +1458,7 @@ export const products: Product[] = [
   },
   {
     id: '98',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-40mm-spacegray',
     itemId: 'apple-watch-series-4-40mm-spacegray',
     name: 'Apple Watch Series 4 40mm Space Gray',
@@ -1473,7 +1473,7 @@ export const products: Product[] = [
   },
   {
     id: '99',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-series-4-44mm-spacegray',
     itemId: 'apple-watch-series-4-44mm-spacegray',
     name: 'Apple Watch Series 4 44mm Space Gray',
@@ -1488,7 +1488,7 @@ export const products: Product[] = [
   },
   {
     id: '100',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-40mm-silver',
     itemId: 'apple-watch-se-40mm-silver',
     name: 'Apple Watch SE 40mm Silver',
@@ -1503,7 +1503,7 @@ export const products: Product[] = [
   },
   {
     id: '101',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-44mm-silver',
     itemId: 'apple-watch-se-44mm-silver',
     name: 'Apple Watch SE 44mm Silver',
@@ -1518,7 +1518,7 @@ export const products: Product[] = [
   },
   {
     id: '102',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-40mm-gold',
     itemId: 'apple-watch-se-40mm-gold',
     name: 'Apple Watch SE 40mm Gold',
@@ -1533,7 +1533,7 @@ export const products: Product[] = [
   },
   {
     id: '103',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-44mm-gold',
     itemId: 'apple-watch-se-44mm-gold',
     name: 'Apple Watch SE 44mm Gold',
@@ -1548,7 +1548,7 @@ export const products: Product[] = [
   },
   {
     id: '104',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-40mm-spacegray',
     itemId: 'apple-watch-se-40mm-spacegray',
     name: 'Apple Watch SE 40mm Space Gray',
@@ -1563,7 +1563,7 @@ export const products: Product[] = [
   },
   {
     id: '105',
-    category: 'watches',
+    category: 'accessories',
     phoneId: 'apple-watch-se-44mm-spacegray',
     itemId: 'apple-watch-se-44mm-spacegray',
     name: 'Apple Watch SE 44mm Space Gray',
@@ -2539,47 +2539,47 @@ export const products: Product[] = [
   {
     id: '170',
     category: 'phones',
-    phoneId: 'apple-iphone-13-mini-64gb-purple',
-    itemId: 'apple-iphone-13-mini-64gb-purple',
-    name: 'Apple iPhone 13 Mini 64GB Purple',
+    phoneId: 'apple-iphone-13-mini-64gb-green',
+    itemId: 'apple-iphone-13-mini-64gb-green',
+    name: 'Apple iPhone 13 Mini 64GB Green',
     fullPrice: 880,
     price: 800,
     screen: "5.4' Super Retina XDR",
     capacity: '64GB',
-    color: 'purple',
+    color: 'green',
     ram: '4GB',
     year: 2021,
-    image: 'img/phones/apple-iphone-13-mini/purple/00.webp',
+    image: 'img/phones/apple-iphone-13-mini/green/00.webp',
   },
   {
     id: '171',
     category: 'phones',
-    phoneId: 'apple-iphone-13-mini-128gb-purple',
-    itemId: 'apple-iphone-13-mini-128gb-purple',
-    name: 'Apple iPhone 13 Mini 128GB Purple',
+    phoneId: 'apple-iphone-13-mini-128gb-green',
+    itemId: 'apple-iphone-13-mini-128gb-green',
+    name: 'Apple iPhone 13 Mini 128GB Green',
     fullPrice: 980,
     price: 900,
     screen: "5.4' Super Retina XDR",
     capacity: '128GB',
-    color: 'purple',
+    color: 'green',
     ram: '4GB',
     year: 2021,
-    image: 'img/phones/apple-iphone-13-mini/purple/00.webp',
+    image: 'img/phones/apple-iphone-13-mini/green/00.webp',
   },
   {
     id: '172',
     category: 'phones',
-    phoneId: 'apple-iphone-13-mini-256gb-purple',
-    itemId: 'apple-iphone-13-mini-256gb-purple',
-    name: 'Apple iPhone 13 Mini 256GB Purple',
+    phoneId: 'apple-iphone-13-mini-256gb-green',
+    itemId: 'apple-iphone-13-mini-256gb-green',
+    name: 'Apple iPhone 13 Mini 256GB Green',
     fullPrice: 1180,
     price: 1100,
     screen: "5.4' Super Retina XDR",
     capacity: '256GB',
-    color: 'purple',
+    color: 'green',
     ram: '4GB',
     year: 2021,
-    image: 'img/phones/apple-iphone-13-mini/purple/00.webp',
+    image: 'img/phones/apple-iphone-13-mini/green/00.webp',
   },
   {
     id: '173',

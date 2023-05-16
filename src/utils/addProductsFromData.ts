@@ -7,24 +7,24 @@ import { phones } from './data/phones';
 
 const getYear = (id: string): number => {
   switch (true) {
-    case (id.includes('-series-3-')):
+    case id.includes('-series-3-'):
       return 2017;
-    case (id.includes('-series-4-')):
+    case id.includes('-series-4-'):
       return 2019;
-    case (id.includes('-series-5-')):
-    case (id.includes('-mini-5th-gen-')):
+    case id.includes('-series-5-'):
+    case id.includes('-mini-5th-gen-'):
       return 2019;
-    case (id.includes('-series-6-')):
-    case (id.includes('-air-4th-gen-')):
-    case (id.includes('-se-')):
-    case (id.includes('-2020-')):
-    case (id.includes('iphone-12')):
+    case id.includes('-series-6-'):
+    case id.includes('-air-4th-gen-'):
+    case id.includes('-se-'):
+    case id.includes('-2020-'):
+    case id.includes('iphone-12'):
       return 2020;
-    case (id.includes('-2021-')):
-    case (id.includes('iphone-13')):
-    case (id.includes('-mini-6th-gen-')):
+    case id.includes('-2021-'):
+    case id.includes('iphone-13'):
+    case id.includes('-mini-6th-gen-'):
       return 2021;
-    case (id.includes('iphone-14')):
+    case id.includes('iphone-14'):
       return 2022;
     default:
       return 2023;
@@ -40,10 +40,10 @@ let maxId = countMaxId();
 const getWatches = () => {
   const newObjects: Product[] = [];
 
-  watches.map(watch => {
+  watches.map((watch) => {
     const newObject: Product = {
       id: String(+maxId + 1),
-      category: 'watches', // dont forget to change this if you need
+      category: 'accessories', // dont forget to change this if you need
       phoneId: watch.id,
       itemId: watch.id,
       name: watch.name,
@@ -67,7 +67,7 @@ const getWatches = () => {
 const getTablets = () => {
   const newObjects: Product[] = [];
 
-  tablets.map(tablet => {
+  tablets.map((tablet) => {
     const newObject: Product = {
       id: String(+maxId + 1),
       category: 'tablets',
@@ -94,7 +94,7 @@ const getTablets = () => {
 const getPhones = () => {
   const newObjects: Product[] = [];
 
-  phones.map(phone => {
+  phones.map((phone) => {
     const newObject: Product = {
       id: String(+maxId + 1),
       category: 'phones',

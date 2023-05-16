@@ -15,6 +15,12 @@ class Phone extends Model {
   @Column({
     type: DataTypes.STRING,
   })
+    productId: string;
+
+  @AllowNull(false)
+  @Column({
+    type: DataTypes.STRING,
+  })
     namespaceId: string;
 
   @AllowNull(false)

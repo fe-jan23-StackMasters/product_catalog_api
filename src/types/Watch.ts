@@ -1,4 +1,5 @@
 export interface Watch {
+  productId: string;
   id: string;
   namespaceId: string;
   name: string;
