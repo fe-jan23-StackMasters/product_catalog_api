@@ -42,12 +42,14 @@ const getOnPage = async (req: Request, res: Response) => {
 
   const models = await productService.getModelsNumber(
     productType as Category[],
+    +priceMin,
+    +priceMax,
   );
 
   res.send({
+    models,
     pages: Math.ceil(models / +perPage),
     products: productService.normalize(products || []),
-    models,
   });
 };
 

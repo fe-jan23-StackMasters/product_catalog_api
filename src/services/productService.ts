@@ -67,7 +67,11 @@ const getWithParams = async (
   return products;
 };
 
-const getModelsNumber = async (category: Category[] | Category) => {
+const getModelsNumber = async (
+  category: Category[] | Category,
+  priceMin: number,
+  priceMax: number,
+) => {
   let productType = category;
 
   if (!Array.isArray(category)) {
@@ -78,6 +82,9 @@ const getModelsNumber = async (category: Category[] | Category) => {
     where: {
       category: {
         [Op.in]: productType,
+      },
+      price: {
+        [Op.between]: [priceMin, priceMax],
       },
     },
   });
