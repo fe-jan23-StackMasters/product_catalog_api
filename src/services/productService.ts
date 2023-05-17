@@ -39,6 +39,7 @@ const getWithParams = async (
   sortBy: SortBy,
   priceMin: number,
   priceMax: number,
+  query: string,
 ) => {
   let productType = category;
 
@@ -58,6 +59,9 @@ const getWithParams = async (
       category: {
         [Op.in]: productType,
       },
+      name: {
+        [Op.iLike]: `%${query.toLocaleLowerCase()}%`,
+      },
     },
     offset,
     limit,
@@ -71,6 +75,7 @@ const getModelsNumber = async (
   category: Category[] | Category,
   priceMin: number,
   priceMax: number,
+  query: string,
 ) => {
   let productType = category;
 
@@ -85,6 +90,9 @@ const getModelsNumber = async (
       },
       price: {
         [Op.between]: [priceMin, priceMax],
+      },
+      name: {
+        [Op.iLike]: `%${query.toLocaleLowerCase()}%`,
       },
     },
   });
@@ -121,6 +129,19 @@ const getRecommended = async () => {
   return products;
 };
 
+const getMinMax = async () => {
+  const [cheap] = await Product.findAll({
+    order: [['price', 'ASC']],
+    limit: 1,
+  });
+  const [expensive] = await Product.findAll({
+    order: [['price', 'DESC']],
+    limit: 1,
+  });
+
+  return [cheap.price, expensive.price];
+};
+
 export default {
   getAll,
   getWithParams,
@@ -129,4 +150,5 @@ export default {
   getHot,
   getRecommended,
   getModelsNumber,
+  getMinMax,
 };

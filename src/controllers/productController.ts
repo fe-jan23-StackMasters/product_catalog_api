@@ -23,9 +23,15 @@ const getOnPage = async (req: Request, res: Response) => {
     sortBy = SortBy.NEW,
     priceMin = 0,
     priceMax = 1000000,
+    query = '',
   } = req.query;
 
-  if (Array.isArray(perPage) || Array.isArray(page) || Array.isArray(sortBy)) {
+  if (
+    Array.isArray(perPage)
+    || Array.isArray(page)
+    || Array.isArray(sortBy)
+    || Array.isArray(query)
+  ) {
     res.sendStatus(400);
 
     return;
@@ -38,12 +44,14 @@ const getOnPage = async (req: Request, res: Response) => {
     sortBy as SortBy,
     +priceMin,
     +priceMax,
+    query as string,
   );
 
   const models = await productService.getModelsNumber(
     productType as Category[],
     +priceMin,
     +priceMax,
+    query as string,
   );
 
   res.send({
@@ -146,7 +154,7 @@ const getMinMax = async (req: Request, res: Response) => {
       prices = await watchService.getMinMax();
       break;
     default:
-      res.status(400).send('No category found');
+      prices = await productService.getMinMax();
 
       return;
   }
