@@ -1,13 +1,26 @@
 import fs from 'fs';
 
 const getBanners = async () => {
-  const directoryPath = 'public/img/banners';
+  const mobilePath = 'public/img/banners/phone';
+  const desktopPath = 'public/img/banners/desktop';
+  const defaultPath = 'img/banners';
 
-  const paths = fs
-    .readdirSync(directoryPath)
-    .map((path) => `img/banners/${path}`);
+  const mobileNames = fs.readdirSync(mobilePath);
 
-  return paths;
+  const desktopNames = fs.readdirSync(desktopPath);
+
+  const result = [];
+
+  for (const name of mobileNames) {
+    if (desktopNames.includes(name)) {
+      result.push({
+        mobile: `${defaultPath}/phone/${name}`,
+        desktop: `${defaultPath}/desktop/${name}`,
+      });
+    }
+  }
+
+  return result;
 };
 
 export default { getBanners };
